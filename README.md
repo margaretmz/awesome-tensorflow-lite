@@ -40,18 +40,18 @@ Note: pretrained TFLite models from MediaPipe are included, which you can implem
 
 ## TFLite model zoo
 TFLite models that could be implemented in apps and things:
-### MobileNet
+* MobileNet
 [https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet/README.md](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet/README.md)
-### TFLite models
-* TensorFlow Lite website [https://www.tensorflow.org/lite/models](https://www.tensorflow.org/lite/models)
-* TensorFlow Hub [https://tfhub.dev/s?q=tflite](https://tfhub.dev/s?q=tflite)
+* TFLite models
+    * TensorFlow Lite website [https://www.tensorflow.org/lite/models](https://www.tensorflow.org/lite/models)
+    * TensorFlow Hub [https://tfhub.dev/s?q=tflite](https://tfhub.dev/s?q=tflite)
 
 ## TensorFlow model zoo
 TensorFlow models that could be converted to TFLite which then can be implemented in apps and things:
-### Official TensorFlow models
+* Official TensorFlow models
 [https://github.com/tensorflow/models/tree/master/official](https://github.com/tensorflow/models/tree/master/official)
-### Tensorflow detection model zoo
-Pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets)
+* Tensorflow detection model zoo:
+pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets)
 [https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 
 
