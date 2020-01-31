@@ -1,7 +1,7 @@
-# Awesome TFLite Collection
+# Awesome TFLite
 TensorFlow Lite is a set of tools that help convert TensorFlow models to run on edge devices. 
 
-This is a collection of links to TFLite models along with sample app, model zoo, learning resources and helpful tools. Please submit a PR if you would like to contribute your TFLite models, demo apps or know of any other TFLite learning resources.
+This is a collection of links to TFLite models along with sample apps, model zoo, helpful tools and learning resources. Please submit a PR if you would like to contribute your TFLite models, demo apps or know of any other TFLite learning resources.
 
 ***
 ## TFLite models
@@ -68,7 +68,7 @@ Interested but not sure how to get started? Here are some learning resources tha
 ### Documentation
 * Official TensorFlow Lite documentation ([link](https://www.tensorflow.org/lite))
 
-#### Blog posts 
+### Blog posts 
 * 11/8/2019 - Getting  Started with ML on MCUs with TensorFlow ([link](https://blog.particle.io/2019/11/08/particle-machine-learning-101/))
 * 8/5/2019 - TensorFlow Model Optimization Toolkit — float16 quantization halves model size  ([link](https://blog.tensorflow.org/2019/08/tensorflow-model-optimization-toolkit_5.html))
 * 7/13/2018 - Training and serving a realtime mobile object detector in 30 minutes with Cloud TPUs  ([link](https://blog.tensorflow.org/2018/07/training-and-serving-realtime-mobile-object-detector-cloud-tpus.html))
