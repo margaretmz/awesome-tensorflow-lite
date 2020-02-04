@@ -3,6 +3,7 @@ TensorFlow Lite is a set of tools that help convert TensorFlow models to run on 
 
 This is a collection of links to TFLite models along with sample apps, model zoo, helpful tools and learning resources. Please submit a PR if you would like to contribute your TFLite models, demo apps or know of any other TFLite learning resources.
 
+<p align="center"><img src="awesome-tflite.png" /></p>
 ***
 ## TFLite models
 Here are the TFLite models with app / device implementations, and references.
