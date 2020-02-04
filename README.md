@@ -1,10 +1,10 @@
+<p align="center"><img src="awesome-tflite.png" /></p>
+
 # Awesome TFLite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 TensorFlow Lite is a set of tools that help convert TensorFlow models to run on edge devices. 
 
 This is a collection of links to TFLite models along with sample apps, model zoo, helpful tools and learning resources. Please submit a PR if you would like to contribute your TFLite models, demo apps or know of any other TFLite learning resources.
 
-<p align="center"><img src="awesome-tflite.png" /></p>
-***
 ## TFLite models
 Here are the TFLite models with app / device implementations, and references.
 Note: pretrained TFLite models from MediaPipe are included, which you can implement with or without MediaPipe. 
