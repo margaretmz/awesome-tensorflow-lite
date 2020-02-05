@@ -42,11 +42,12 @@ Segmentation (Flutter Realtime) | DeepLab V3 ([download](https://storage.googlea
 TFLite models that could be implemented in apps and things:
 *  [MobileNet](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet/README.md)- pretrained MobileNet v2 and v3 models.
 * TFLite models
-    * from [TensorFlow Lite website](https://www.tensorflow.org/lite/models)
-    * from [TensorFlow Hub](https://tfhub.dev/s?q=tflite)
+    * [TensorFlow Lite models](https://www.tensorflow.org/lite/models) with Android and iOS examples
+    * [TensorFlow Lite hosted models](https://www.tensorflow.org/lite/guide/hosted_models) with quantized and floating point variants 
+    * [TFLite models from TensorFlow Hub](https://tfhub.dev/s?q=tflite)
 
 ## TensorFlow model zoo
-Here is the list of TensorFlow models that could be converted to TFLite and then implemented in apps and things:
+TensorFlow models that could be converted to TFLite and then implemented in apps and things:
 * [Official TensorFlow models](https://github.com/tensorflow/models/tree/master/official)
 * [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) -
 pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets)
@@ -61,8 +62,9 @@ pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets)
 * 5/22/2018 ML Kit on Android 1: Intro - [tutorial](https://medium.com/google-developer-experts/exploring-firebase-mlkit-on-android-introducing-mlkit-part-one-98fcfedbeee0)
 
 ## Helpful tools
-* [Netron](https://github.com/lutzroeder/netron) - for visualizing models.
-* [AI benchmark](http://ai-benchmark.com/tests.html)  - for benchmarking computer vision models on smartphones.
+* [Netron](https://github.com/lutzroeder/netron) - for visualizing models
+* [AI benchmark](http://ai-benchmark.com/tests.html)  - for benchmarking computer vision models on smartphones
+* [Performance benchmarks](https://www.tensorflow.org/lite/performance/benchmarks) for Android and iOS
 
 ## Learning resources
 Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
