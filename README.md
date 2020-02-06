@@ -5,6 +5,13 @@ TensorFlow Lite is a set of tools that help convert TensorFlow models to run on 
 
 This is a collection of links to TFLite models along with sample apps, model zoo, helpful tools and learning resources. Please submit a PR if you would like to contribute your TFLite models, demo apps or know of any other TFLite learning resources.
 
+## New features
+Here are some new features recently announced at TensorFlow World:
+* TFLite Android Support Library - [documentation](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/support/java) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/EXPLORE_THE_CODE.md))
+* Transfer learning made easy with model customization API -  Colab tutorials - [Image](https://github.com/tensorflow/examples/blob/master/tensorflow_examples/lite/model_customization/demo/image_classification.ipynb) | [Text](https://github.com/tensorflow/examples/blob/master/tensorflow_examples/lite/model_customization/demo/text_classification.ipynb)
+* On-device training is finally here - [Blog](https://blog.tensorflow.org/2019/12/example-on-device-model-personalization.html) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/model_personalization/README.md))
+* Accelerating TensorFlow Lite on Qualcomm Hexagon DSPs - [Blog](https://blog.tensorflow.org/2019/12/accelerating-tensorflow-lite-on-qualcomm.html) | [Documentation](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/hexagon_delegate.md)
+
 ## TFLite models
 Here are the TFLite models with app / device implementations, and references.
 Note: pretrained TFLite models from MediaPipe are included, which you can implement with or without MediaPipe. 
@@ -84,6 +91,9 @@ Interested but not sure how to get started? Here are some learning resources tha
 * 10/2019 - [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.practicaldeeplearning.ai/)
 
 ### YouTube videos
+* 10/31/2019 - [Keynote - TensorFlow Lite: ML for mobile and IoT devices](https://www.youtube.com/watch?v=zjDGAiLqGk8) 
+* 10/31/2019 - [TensorFlow Lite: Solution for running ML on-device](https://www.youtube.com/watch?v=0SpZy7iouFU)
+* 10/31/2019 - [TensorFlow model optimization: Quantization and pruning](https://www.youtube.com/watch?v=3JWRVx1OKQQ) 
 * 10/29/2019 - [Inside TensorFlow: TensorFlow Lite](https://www.youtube.com/watch?v=gHN0jDbJz8E&t=540s)
 * 4/18/2018 - [TensorFlow Lite for Android (Coding TensorFlow)](https://www.youtube.com/watch?v=JnhW5tQ_7Vo&t=22s)
 
