@@ -68,10 +68,12 @@ pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets)
 * 5/31/2018 ML Kit on Android 2: Face Detection - [tutorial](https://medium.com/google-developer-experts/exploring-firebase-mlkit-on-android-face-detection-part-two-de7e307c52e0)
 * 5/22/2018 ML Kit on Android 1: Intro - [tutorial](https://medium.com/google-developer-experts/exploring-firebase-mlkit-on-android-introducing-mlkit-part-one-98fcfedbeee0)
 
-## Helpful tools
+## Helpful links
 * [Netron](https://github.com/lutzroeder/netron) - for visualizing models
 * [AI benchmark](http://ai-benchmark.com/tests.html)  - for benchmarking computer vision models on smartphones
 * [Performance benchmarks](https://www.tensorflow.org/lite/performance/benchmarks) for Android and iOS
+* How to design machine learning powered features - [material design guidelines for ML](https://material.io/collections/machine-learning/patterns-for-machine-learning-powered-features.html) | [ML Kit Showcase App](https://github.com/firebase/mlkit-material-android)
+* [The People + AI Guide book](https://pair.withgoogle.com/) - learn how to design human-centered AI products
 
 ## Learning resources
 Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
