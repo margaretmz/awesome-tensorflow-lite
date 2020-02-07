@@ -89,8 +89,8 @@ Interested but not sure how to get started? Here are some learning resources tha
 * 3/30/2018 - Using TensorFlow Lite on Android ([link](https://blog.tensorflow.org/2018/03/using-tensorflow-lite-on-android.html))
 
 ### Books
-* 12/2019 - [TinyML](http://shop.oreilly.com/product/0636920254508.do)  
-* 10/2019 - [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.practicaldeeplearning.ai/)
+* 12/2019 - [TinyML](http://shop.oreilly.com/product/0636920254508.do)  by Pete Warden ([@petewarden](https://twitter.com/petewarden)), Daniel Situnayake ([@dansitu](https://twitter.com/dansitu)) 
+* 10/2019 - [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.practicaldeeplearning.ai/) by Anirudh Koul ([@AnirudhKoul](https://twitter.com/AnirudhKoul)), Siddha Ganju ([@SiddhaGanju](https://twitter.com/SiddhaGanju)), and Meher Kasam ([@MeherKasam](https://twitter.com/MeherKasam))
 
 ### YouTube videos
 * 10/31/2019 - [Keynote - TensorFlow Lite: ML for mobile and IoT devices](https://www.youtube.com/watch?v=zjDGAiLqGk8) 
