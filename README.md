@@ -1,6 +1,6 @@
 <p align="center"><img src="awesome-tflite.png" /></p>
 
-# Awesome TFLite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) ![Twitter Follow](https://img.shields.io/twitter/follow/margaretmz?label=%40margaretmz&style=social)
+# Awesome TFLite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Twitter](https://img.shields.io/badge/Twitter-%40margaretmz-blue)](https://twitter.com/margaretmz)
 TensorFlow Lite (TFLite) is a set of tools that help convert TensorFlow models to run on mobile and edge devices - currently running on more than 3 billion devices! 
 
 This is a curated list of TFLite models with sample apps, model zoo, helpful tools and learning resources. Please submit a PR if you would like to contribute and follow the guidelines [here](CONTRIBUTING.md).
