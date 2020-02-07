@@ -68,6 +68,11 @@ pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets)
 * 5/31/2018 ML Kit on Android 2: Face Detection - [tutorial](https://medium.com/google-developer-experts/exploring-firebase-mlkit-on-android-face-detection-part-two-de7e307c52e0)
 * 5/22/2018 ML Kit on Android 1: Intro - [tutorial](https://medium.com/google-developer-experts/exploring-firebase-mlkit-on-android-introducing-mlkit-part-one-98fcfedbeee0)
 
+## Other
+* [Coral Edge TPU examples](https://coral.ai/examples/)
+* [MediaPipe examples](https://mediapipe.readthedocs.io/en/latest/examples.html): mobile, desktop and Edge TPUs
+* [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers)
+
 ## Helpful links
 * [Netron](https://github.com/lutzroeder/netron) - for visualizing models
 * [AI benchmark](http://ai-benchmark.com/tests.html)  - for benchmarking computer vision models on smartphones
