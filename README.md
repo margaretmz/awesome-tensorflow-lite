@@ -1,4 +1,4 @@
-<p align="center"><img src="images/awesome-tflite.png" /></p>
+<p align="center">Please star the repo if you find it useful…<img src="images/awesome-tflite.png" /></p>
 
 # Awesome TFLite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Twitter](https://img.shields.io/badge/Twitter-%40margaretmz-blue)](https://twitter.com/margaretmz)
 TensorFlow Lite (TFLite) is a set of tools that help convert and optimize TensorFlow models to run on mobile and edge devices - currently running on more than 3 billion devices! With TensorFlow 2.0, you can train a model with tf.Keras, easily convert it to TFLite and deploy it; or you can download a pretrained TFLite model from the model zoo.
@@ -14,11 +14,11 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
 Here are some new features recently announced at TensorFlow World:
 * TFLite Android Support Library - [documentation](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/support/java) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/EXPLORE_THE_CODE.md))
 * Transfer learning made easy with model customization API -  Colab tutorials - [Image](https://github.com/tensorflow/examples/blob/master/tensorflow_examples/lite/model_customization/demo/image_classification.ipynb) | [Text](https://github.com/tensorflow/examples/blob/master/tensorflow_examples/lite/model_customization/demo/text_classification.ipynb)
-* On-device training is finally here - [Blog](https://blog.tensorflow.org/2019/12/example-on-device-model-personalization.html) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/model_personalization/README.md))
+* **On-device training** is finally here! Currently limited to transfer learning for image classification only but it's a great start - [Blog](https://blog.tensorflow.org/2019/12/example-on-device-model-personalization.html) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/model_personalization/README.md))
 * Accelerating TensorFlow Lite on Qualcomm Hexagon DSPs - [Blog](https://blog.tensorflow.org/2019/12/accelerating-tensorflow-lite-on-qualcomm.html) | [Documentation](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/hexagon_delegate.md)
 
 ## TFLite models
-Here are the TFLite models with app / device implementations, and references.
+Here are the TFLite models with app / device implementations, and references.  
 Note: pretrained TFLite models from MediaPipe are included, which you can implement with or without MediaPipe. 
 
 ### Computer vision
@@ -62,7 +62,7 @@ TFLite models that could be implemented in apps and things:
 TensorFlow models that could be converted to TFLite and then implemented in apps and things:
 * [Official TensorFlow models](https://github.com/tensorflow/models/tree/master/official)
 * [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) -
-pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets)
+pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets
 
 ## ML Kit examples <img src="images/mlkit.png" width='32' height='32'/>
 * 2/9/219 Flutter + MLKit: Business Card Mail Extractor - [tutorial](https://medium.com/flutter-community/flutter-mlkit-8039ec66b6a) | [Flutter](https://github.com/DaemonLoki/Business-Card-Mail-Extractor) 
@@ -85,7 +85,7 @@ pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets)
 * How to design machine learning powered features - [material design guidelines for ML](https://material.io/collections/machine-learning/patterns-for-machine-learning-powered-features.html) | [ML Kit Showcase App](https://github.com/firebase/mlkit-material-android)
 * [The People + AI Guide book](https://pair.withgoogle.com/) - learn how to design human-centered AI products
 
-## Learning resources <img src="images/learn.png" width='32' height='32'/>
+## Learning resources 
 Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
 
 ### Documentation <img src="images/docs.png" width='32' height='32'/>
