@@ -1,4 +1,4 @@
-<p align="center"><img src="awesome-tflite.png" /></p>
+<p align="center"><img src="images/awesome-tflite.png" /></p>
 
 # Awesome TFLite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Twitter](https://img.shields.io/badge/Twitter-%40margaretmz-blue)](https://twitter.com/margaretmz)
 TensorFlow Lite (TFLite) is a set of tools that help convert and optimize TensorFlow models to run on mobile and edge devices - currently running on more than 3 billion devices! With TensorFlow 2.0, you can train a model with tf.Keras, easily convert it to TFLite and deploy it; or you can download a pretrained TFLite model from the model zoo.
@@ -10,7 +10,7 @@ This is a curated list of TFLite models with sample apps, model zoo, helpful too
 
 Please submit a PR if you would like to contribute and follow the guidelines [here](CONTRIBUTING.md).
 
-## New features
+## New features <img src="images/new.png" width='32' height='32'/>
 Here are some new features recently announced at TensorFlow World:
 * TFLite Android Support Library - [documentation](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/support/java) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/EXPLORE_THE_CODE.md))
 * Transfer learning made easy with model customization API -  Colab tutorials - [Image](https://github.com/tensorflow/examples/blob/master/tensorflow_examples/lite/model_customization/demo/image_classification.ipynb) | [Text](https://github.com/tensorflow/examples/blob/master/tensorflow_examples/lite/model_customization/demo/text_classification.ipynb)
@@ -50,7 +50,7 @@ Segmentation (Flutter Realtime) | DeepLab V3 ([download](https://storage.googlea
 | ------------------ |----------| ------------------- | --------- |
 | Speech Recognition | DeepSpeech | [Reference](https://github.com/mozilla/DeepSpeech/tree/master/native_client/java) | Mozilla |
 
-## TFLite model zoo
+## TFLite model zoo <img src="images/zoo.png" width='32' height='32'/>
 TFLite models that could be implemented in apps and things:
 *  [MobileNet](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet/README.md)- pretrained MobileNet v2 and v3 models.
 * TFLite models
@@ -58,13 +58,13 @@ TFLite models that could be implemented in apps and things:
     * [TensorFlow Lite hosted models](https://www.tensorflow.org/lite/guide/hosted_models) with quantized and floating point variants 
     * [TFLite models from TensorFlow Hub](https://tfhub.dev/s?q=tflite)
 
-## TensorFlow model zoo
+## TensorFlow model zoo <img src="images/zoo.png" width='32' height='32'/>
 TensorFlow models that could be converted to TFLite and then implemented in apps and things:
 * [Official TensorFlow models](https://github.com/tensorflow/models/tree/master/official)
 * [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) -
 pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets)
 
-## ML Kit examples
+## ML Kit examples <img src="images/mlkit.png" width='32' height='32'/>
 * 2/9/219 Flutter + MLKit: Business Card Mail Extractor - [tutorial](https://medium.com/flutter-community/flutter-mlkit-8039ec66b6a) | [Flutter](https://github.com/DaemonLoki/Business-Card-Mail-Extractor) 
 * 2/8/2019 From TensorFlow to ML Kit: Power your Android application with machine learning - [slides](https://speakerdeck.com/jinqian/from-tensorflow-to-ml-kit-power-your-android-application-with-machine-learning) | [Android](https://github.com/xebia-france/magritte) (Kotlin)
 * 8/7/2018 Building a Custom Machine Learning Model on Android with TensorFlow Lite - [tutorial](https://medium.com/over-engineering/building-a-custom-machine-learning-model-on-android-with-tensorflow-lite-26447e53abf2)
@@ -78,38 +78,38 @@ pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets)
 * [MediaPipe examples](https://mediapipe.readthedocs.io/en/latest/examples.html): mobile, desktop and Edge TPUs
 * [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers)
 
-## Helpful links
+## Helpful links <img src="images/helpful.png" width='32' height='32'/>
 * [Netron](https://github.com/lutzroeder/netron) - for visualizing models
 * [AI benchmark](http://ai-benchmark.com/tests.html)  - for benchmarking computer vision models on smartphones
 * [Performance benchmarks](https://www.tensorflow.org/lite/performance/benchmarks) for Android and iOS
 * How to design machine learning powered features - [material design guidelines for ML](https://material.io/collections/machine-learning/patterns-for-machine-learning-powered-features.html) | [ML Kit Showcase App](https://github.com/firebase/mlkit-material-android)
 * [The People + AI Guide book](https://pair.withgoogle.com/) - learn how to design human-centered AI products
 
-## Learning resources
+## Learning resources <img src="images/learn.png" width='32' height='32'/>
 Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
 
-### Documentation
+### Documentation <img src="images/docs.png" width='32' height='32'/>
 * Official TensorFlow Lite documentation ([link](https://www.tensorflow.org/lite))
 
-### Blog posts 
+### Blog posts <img src="images/blog.png" width='32' height='32'/>
 * 11/8/2019 - Getting  Started with ML on MCUs with TensorFlow ([link](https://blog.particle.io/2019/11/08/particle-machine-learning-101/))
 * 8/5/2019 - TensorFlow Model Optimization Toolkit — float16 quantization halves model size  ([link](https://blog.tensorflow.org/2019/08/tensorflow-model-optimization-toolkit_5.html))
 * 7/13/2018 - Training and serving a realtime mobile object detector in 30 minutes with Cloud TPUs  ([link](https://blog.tensorflow.org/2018/07/training-and-serving-realtime-mobile-object-detector-cloud-tpus.html))
 * 6/11/2018 - Why the Future of Machine Learning is Tiny  ([link](https://petewarden.com/2018/06/11/why-the-future-of-machine-learning-is-tiny/))
 * 3/30/2018 - Using TensorFlow Lite on Android ([link](https://blog.tensorflow.org/2018/03/using-tensorflow-lite-on-android.html))
 
-### Books
+### Books <img src="images/books.png" height='32'/>
 * 12/2019 - [TinyML](http://shop.oreilly.com/product/0636920254508.do)  by Pete Warden ([@petewarden](https://twitter.com/petewarden)), Daniel Situnayake ([@dansitu](https://twitter.com/dansitu)) 
 * 10/2019 - [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.practicaldeeplearning.ai/) by Anirudh Koul ([@AnirudhKoul](https://twitter.com/AnirudhKoul)), Siddha Ganju ([@SiddhaGanju](https://twitter.com/SiddhaGanju)), and Meher Kasam ([@MeherKasam](https://twitter.com/MeherKasam))
 
-### YouTube videos
+### YouTube videos <img src="images/youtube.png" width='36' height='25'/>
 * 10/31/2019 - [Keynote - TensorFlow Lite: ML for mobile and IoT devices](https://www.youtube.com/watch?v=zjDGAiLqGk8) 
 * 10/31/2019 - [TensorFlow Lite: Solution for running ML on-device](https://www.youtube.com/watch?v=0SpZy7iouFU)
 * 10/31/2019 - [TensorFlow model optimization: Quantization and pruning](https://www.youtube.com/watch?v=3JWRVx1OKQQ) 
 * 10/29/2019 - [Inside TensorFlow: TensorFlow Lite](https://www.youtube.com/watch?v=gHN0jDbJz8E&t=540s)
 * 4/18/2018 - [TensorFlow Lite for Android (Coding TensorFlow)](https://www.youtube.com/watch?v=JnhW5tQ_7Vo&t=22s)
 
-### MOOC
+### MOOC <img src="images/mooc.png" width='32' height='32'/>
 * Udacity [Introduction to TensorFlow Lite](https://www.udacity.com/course/intro-to-tensorflow-lite--ud190) - by Daniel Situnayake ([@dansitu](https://twitter.com/dansitu)), Paige Bailey ([@DynamicWebPaige](https://twitter.com/DynamicWebPaige)), and Juan Delgado
 * Coursera [Device-based Models with TensorFlow Lite](https://www.coursera.org/learn/device-based-models-tensorflow) - by Laurence Moroney ([@lmoroney](https://twitter.com/lmoroney))
 
