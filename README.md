@@ -78,10 +78,12 @@ pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets
 * 5/31/2018 ML Kit on Android 2: Face Detection - [tutorial](https://medium.com/google-developer-experts/exploring-firebase-mlkit-on-android-face-detection-part-two-de7e307c52e0)
 * 5/22/2018 ML Kit on Android 1: Intro - [tutorial](https://medium.com/google-developer-experts/exploring-firebase-mlkit-on-android-introducing-mlkit-part-one-98fcfedbeee0)
 
-## Other
-* [Coral Edge TPU examples](https://coral.ai/examples/)
+## Awesome SDKs, platforms & hardware
+* [Edge Impulse](https://www.edgeimpulse.com/) - helps you to train TFLite models for embedded devices in the cloud. 
+* [Fritz.ai](https://www.fritz.ai/) - an ML platform that makes iOS and Android developers’ life easier: with pre-trained ML models and end-to-end platform for building and deploying custom trained models.
+* [MediaPipe](https://github.com/google/mediapipe) - a cross platform (mobile, desktop and Edge TPUs) AI pipeline by Google AI. 
 * [MediaPipe examples](https://mediapipe.readthedocs.io/en/latest/examples.html): mobile, desktop and Edge TPUs
-* [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers)
+* [Coral Edge TPU](https://coral.ai/) - Google’s edge hardware. [Coral Edge TPU examples](https://coral.ai/examples/)
 
 ## Helpful links <img src="images/helpful.png" width='32' height='32'/>
 * [Netron](https://github.com/lutzroeder/netron) - for visualizing models
@@ -94,7 +96,8 @@ pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets
 Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
 
 ### Documentation <img src="images/docs.png" width='32' height='32'/>
-* Official TensorFlow Lite documentation ([link](https://www.tensorflow.org/lite))
+* TensorFlow Lite documentation ([link](https://www.tensorflow.org/lite))
+* TensorFlow Lite for Microcontrollers documentation ([link](https://www.tensorflow.org/lite/microcontrollers))
 
 ### Blog posts <img src="images/blog.png" width='32' height='32'/>
 * 11/8/2019 - Getting  Started with ML on MCUs with TensorFlow ([link](https://blog.particle.io/2019/11/08/particle-machine-learning-101/))
