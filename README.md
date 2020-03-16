@@ -18,6 +18,7 @@ Here are some new features recently announced at TensorFlow World:
 * Create your custom classification models easily with the **TFLite Model Maker** (~~model customization API~~) -  Colab tutorials for [Image & Text](https://github.com/tensorflow/examples/tree/master/tensorflow_examples/lite/model_maker)
 * **On-device training** is finally here! Currently limited to transfer learning for image classification only but it's a great start - [Blog](https://blog.tensorflow.org/2019/12/example-on-device-model-personalization.html) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/model_personalization/README.md))
 * Accelerating TensorFlow Lite on Qualcomm Hexagon DSPs - [Blog](https://blog.tensorflow.org/2019/12/accelerating-tensorflow-lite-on-qualcomm.html) | [Documentation](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/hexagon_delegate.md)
+* On-device activity recognition for next-generation privacy-preserving personal informatics apps - [Blog](https://aqibsaeed.github.io/on-device-activity-recognition) | [Code](https://github.com/aqibsaeed/on-device-activity-recognition). Leverage transfer learning for efficiently training context sensing models directly on the Android device without the need for sending data to the server.
 
 ## TFLite models
 Here are the TFLite models with app / device implementations, and references.  
