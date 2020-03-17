@@ -107,6 +107,7 @@ Interested but not sure how to get started? Here are some learning resources tha
 * 3/30/2018 - Using TensorFlow Lite on Android ([link](https://blog.tensorflow.org/2018/03/using-tensorflow-lite-on-android.html))
 
 ### Books <img src="images/books.png" height='32'/>
+* 03/2020 - [Raspberry Pi for Computer Vision (Complete Bundle)](https://www.pyimagesearch.com/raspberry-pi-for-computer-vision) by the PyImageSearch Team [Adrian Rosebrock ([@PyImageSearch](https://twitter.com/PyImageSearch)), David Hoffman, Asbhishek Thanki, Sayak Paul ([@RisingSayak](https://twitter.com/RisingSayak)), and David Mcduffee]
 * 12/2019 - [TinyML](http://shop.oreilly.com/product/0636920254508.do)  by Pete Warden ([@petewarden](https://twitter.com/petewarden)), Daniel Situnayake ([@dansitu](https://twitter.com/dansitu)) 
 * 10/2019 - [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.practicaldeeplearning.ai/) by Anirudh Koul ([@AnirudhKoul](https://twitter.com/AnirudhKoul)), Siddha Ganju ([@SiddhaGanju](https://twitter.com/SiddhaGanju)), and Meher Kasam ([@MeherKasam](https://twitter.com/MeherKasam))
 
