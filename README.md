@@ -47,6 +47,7 @@ Segmentation (Flutter Realtime) | DeepLab V3 ([download](https://storage.googlea
 | -------------- |---------------| -------------------------------------- | --------- |
 | Question & Answer | DistilBERT | [Android](https://github.com/huggingface/tflite-android-transformers/blob/master/bert) | Hugging Face |
 | Text Generation | GPT-2 / DistilGPT2 | [Android](https://github.com/huggingface/tflite-android-transformers/blob/master/gpt2) | Hugging Face |
+Text Classification | [Download](https://storage.googleapis.com/download.tensorflow.org/models/tflite/text_classification/text_classification.tflite) | [Android](https://github.com/tensorflow/examples/tree/master/lite/examples/text_classification/android) | tensorflow.org
 Text Classification | [Download](https://storage.googleapis.com/download.tensorflow.org/models/tflite/text_classification/text_classification.tflite) | [iOS](https://github.com/khurram18/TextClassafication) | Community
 ### Speech
 | Task               | Model    | App \| Reference    | Source    |
