@@ -2,7 +2,7 @@
 <p align="center"><img src="images/awesome-tflite.png" /></p>
 
 # Awesome TFLite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Twitter](https://img.shields.io/badge/Twitter-%40margaretmz-blue)](https://twitter.com/margaretmz)
-TensorFlow Lite (TFLite) is a set of tools that help convert and optimize TensorFlow models to run on mobile and edge devices - currently running on more than 3 billion devices! With TensorFlow 2.0, you can train a model with tf.Keras, easily convert it to TFLite and deploy it; or you can download a pretrained TFLite model from the model zoo.
+TensorFlow Lite (TFLite) is a set of tools that help convert and optimize TensorFlow models to run on mobile and edge devices - currently running on more than 4 billion devices! With TensorFlow 2.x, you can train a model with tf.Keras, easily convert model to .tflite and deploy it; or you can download a pretrained TFLite model from the model zoo.
 
 This is a curated list of TFLite models with sample apps, model zoo, helpful tools and learning resources. The purpose of this repo is to -
 * showcase what the community has built with TFLite 
@@ -82,7 +82,7 @@ pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets
 * 5/31/2018 ML Kit on Android 2: Face Detection - [tutorial](https://medium.com/google-developer-experts/exploring-firebase-mlkit-on-android-face-detection-part-two-de7e307c52e0).
 * 5/22/2018 ML Kit on Android 1: Intro - [tutorial](https://medium.com/google-developer-experts/exploring-firebase-mlkit-on-android-introducing-mlkit-part-one-98fcfedbeee0).
 
-## Other SDKs, platforms & hardware
+## Other plugins, SDKs & platforms
 * [Edge Impulse](https://www.edgeimpulse.com/) - helps you to train TFLite models for embedded devices in the cloud. ([@EdgeImpulse](https://twitter.com/EdgeImpulse))
 * [Fritz.ai](https://www.fritz.ai/) - an ML platform that makes iOS and Android developers’ life easier: with pre-trained ML models and end-to-end platform for building and deploying custom trained models. ([@fritzlabs](https://twitter.com/fritzlabs))
 * [MediaPipe](https://github.com/google/mediapipe) - a cross platform (mobile, desktop and Edge TPUs) AI pipeline by Google AI. (PM [Ming Yong](https://twitter.com/realmgyong)) | [MediaPipe examples](https://mediapipe.readthedocs.io/en/latest/examples.html)
