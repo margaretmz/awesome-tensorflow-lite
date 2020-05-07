@@ -103,14 +103,14 @@ Interested but not sure how to get started? Here are some learning resources tha
 * TensorFlow Lite for Microcontrollers documentation ([link](https://www.tensorflow.org/lite/microcontrollers))
 
 ### Blog posts <img src="images/blog.png" width='32' height='32'/>
-* 4/20/2020 - What’s new in TensorFlow Lite from DevSummit 2020 ([link](https://blog.tensorflow.org/2020/04/whats-new-in-tensorflow-lite-from-devsummit-2020.html))
-* 4/17/2020 - Optimizing style transfer to run on mobile with TFLite ([link](https://blog.tensorflow.org/2020/04/optimizing-style-transfer-to-run-on-mobile-with-tflite.html))
-* 4/14/2020 - How TensorFlow Lite helps you from prototype to product ([link](https://blog.tensorflow.org/2020/04/how-tensorflow-lite-helps-you-from-prototype-to-product.html))
-* 11/8/2019 - Getting  Started with ML on MCUs with TensorFlow ([link](https://blog.particle.io/2019/11/08/particle-machine-learning-101/))
-* 8/5/2019 - TensorFlow Model Optimization Toolkit — float16 quantization halves model size  ([link](https://blog.tensorflow.org/2019/08/tensorflow-model-optimization-toolkit_5.html))
-* 7/13/2018 - Training and serving a realtime mobile object detector in 30 minutes with Cloud TPUs  ([link](https://blog.tensorflow.org/2018/07/training-and-serving-realtime-mobile-object-detector-cloud-tpus.html))
-* 6/11/2018 - Why the Future of Machine Learning is Tiny  ([link](https://petewarden.com/2018/06/11/why-the-future-of-machine-learning-is-tiny/))
-* 3/30/2018 - Using TensorFlow Lite on Android ([link](https://blog.tensorflow.org/2018/03/using-tensorflow-lite-on-android.html))
+* 4/20/2020 - What’s new in TensorFlow Lite from DevSummit 2020, Khanh LeViet. ([link](https://blog.tensorflow.org/2020/04/whats-new-in-tensorflow-lite-from-devsummit-2020.html))
+* 4/17/2020 - Optimizing style transfer to run on mobile with TFLite, Khanh LeViet and Luiz Gustavo Martins. ([link](https://blog.tensorflow.org/2020/04/optimizing-style-transfer-to-run-on-mobile-with-tflite.html))
+* 4/14/2020 - How TensorFlow Lite helps you from prototype to product, Khanh LeViet. ([link](https://blog.tensorflow.org/2020/04/how-tensorflow-lite-helps-you-from-prototype-to-product.html))
+* 11/8/2019 - Getting  Started with ML on MCUs with TensorFlow, BRANDON SATROM. ([link](https://blog.particle.io/2019/11/08/particle-machine-learning-101/))
+* 8/5/2019 - TensorFlow Model Optimization Toolkit — float16 quantization halves model size, the TensorFlow team. ([link](https://blog.tensorflow.org/2019/08/tensorflow-model-optimization-toolkit_5.html))
+* 7/13/2018 - Training and serving a realtime mobile object detector in 30 minutes with Cloud TPUs, Sara Robinson, Aakanksha Chowdhery, and Jonathan Huang. ([link](https://blog.tensorflow.org/2018/07/training-and-serving-realtime-mobile-object-detector-cloud-tpus.html))
+* 6/11/2018 - Why the Future of Machine Learning is Tiny, Pete Warden. ([link](https://petewarden.com/2018/06/11/why-the-future-of-machine-learning-is-tiny/))
+* 3/30/2018 - Using TensorFlow Lite on Android, Laurence Moroney. ([link](https://blog.tensorflow.org/2018/03/using-tensorflow-lite-on-android.html))
 
 ### Books <img src="images/books.png" height='32'/>
 * 03/2020 - Raspberry Pi for Computer Vision ([Complete Bundle](https://www.pyimagesearch.com/raspberry-pi-for-computer-vision) | [TOC](https://www.pyimagesearch.com/2019/04/05/table-of-contents-raspberry-pi-for-computer-vision/)) by the PyImageSearch Team: Adrian Rosebrock ([@PyImageSearch](https://twitter.com/PyImageSearch)), David Hoffman, Asbhishek Thanki, Sayak Paul ([@RisingSayak](https://twitter.com/RisingSayak)), and David Mcduffee.
