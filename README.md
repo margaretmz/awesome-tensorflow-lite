@@ -50,6 +50,7 @@ Segmentation (Flutter Realtime) | DeepLab V3 ([download](https://storage.googlea
 | Text Generation | GPT-2 / DistilGPT2 | [Android](https://github.com/huggingface/tflite-android-transformers/blob/master/gpt2) | Hugging Face |
 Text Classification | [Download](https://storage.googleapis.com/download.tensorflow.org/models/tflite/text_classification/text_classification.tflite) | [Android](https://github.com/tensorflow/examples/tree/master/lite/examples/text_classification/android) | tensorflow.org
 Text Classification | [Download](https://storage.googleapis.com/download.tensorflow.org/models/tflite/text_classification/text_classification.tflite) | [iOS](https://github.com/khurram18/TextClassafication) | Community
+Text Classification | [Download](https://storage.googleapis.com/download.tensorflow.org/models/tflite/text_classification/text_classification.tflite) | [Flutter](https://github.com/am15h/tflite_flutter_plugin/tree/master/example) | Community
 ### Speech
 | Task               | Model    | App \| Reference    | Source    |
 | ------------------ |----------| ------------------- | --------- |
@@ -87,6 +88,7 @@ pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets
 * [Fritz.ai](https://www.fritz.ai/) - an ML platform that makes iOS and Android developers’ life easier: with pre-trained ML models and end-to-end platform for building and deploying custom trained models. ([@fritzlabs](https://twitter.com/fritzlabs))
 * [MediaPipe](https://github.com/google/mediapipe) - a cross platform (mobile, desktop and Edge TPUs) AI pipeline by Google AI. (PM [Ming Yong](https://twitter.com/realmgyong)) | [MediaPipe examples](https://mediapipe.readthedocs.io/en/latest/examples.html)
 * [Coral Edge TPU](https://coral.ai/) - Google’s edge hardware. [Coral Edge TPU examples](https://coral.ai/examples/)
+* [TFLite Flutter Plugin](https://github.com/am15h/tflite_flutter_plugin/) - provides a dart API similar to the TFLite Java API for accessing TensorFlow Lite interpreter and performing inference in flutter apps. [tflite_flutter on pub.dev](https://pub.dev/packages/tflite_flutter)
 
 ## Helpful links <img src="images/helpful.png" width='32' height='32'/>
 * [Netron](https://github.com/lutzroeder/netron) - for visualizing models
