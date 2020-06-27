@@ -7,5 +7,5 @@ Help needed:
 * Write e2e tutorial on how to use and customize the sample
 
 <p align="center">
- <img src="../images/screenshots/speech_command.gif" width='680'/>
+ <img src="../images/screenshots/speech_command.png" width='680'/>
 </p>
