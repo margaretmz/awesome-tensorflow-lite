@@ -82,11 +82,11 @@ A list of ideas and projects - you can help by creating a tflite model ready for
 * [DeepSpeech](https://github.com/mozilla/DeepSpeech) - a very popular ASR framework
 
 ### Project ideas (help needed!)
-* YOLO
-* Classify pose
-* Sound classification
-* SPICE (Pitch Detection)
-* Speech Command
+* YOLO - [overview](overviews/yolo.md)
+* Classify pose - [overview](overviews/classify_pose.md)
+* Sound classification - [overview](overviews/classify_sound.md)
+* SPICE (Pitch Detection) - [overview](overviews/spice_pitch_detection.md)
+* Speech Command - [overview](overviews/speech_command.md)
 
 ## ML Kit examples <img src="images/icons/mlkit.png" width='32' height='32'/>
 [ML Kit](https://developers.google.com/ml-kit) is a mobile SDK that brings Google's ML expertise to mobile devs.
@@ -122,7 +122,7 @@ Interested but not sure how to get started? Here are some learning resources tha
 * TensorFlow Lite documentation ([link](https://www.tensorflow.org/lite))
 * TensorFlow Lite for Microcontrollers documentation ([link](https://www.tensorflow.org/lite/microcontrollers))
 
-### Blog posts <img src="images/blog.png" width='32' height='32'/>
+### Blog posts <img src="images/icons/blog.png" width='32' height='32'/>
 * 4/20/2020 - What’s new in TensorFlow Lite from DevSummit 2020, Khanh LeViet. ([link](https://blog.tensorflow.org/2020/04/whats-new-in-tensorflow-lite-from-devsummit-2020.html))
 * 4/17/2020 - Optimizing style transfer to run on mobile with TFLite, Khanh LeViet and Luiz Gustavo Martins. ([link](https://blog.tensorflow.org/2020/04/optimizing-style-transfer-to-run-on-mobile-with-tflite.html))
 * 4/14/2020 - How TensorFlow Lite helps you from prototype to product, Khanh LeViet. ([link](https://blog.tensorflow.org/2020/04/how-tensorflow-lite-helps-you-from-prototype-to-product.html))
