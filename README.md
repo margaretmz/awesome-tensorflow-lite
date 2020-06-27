@@ -19,7 +19,7 @@ Here are some new features recently announced at TensorFlow World:
 * **On-device training** is finally here! Currently limited to transfer learning for image classification only but it's a great start - [Blog](https://blog.tensorflow.org/2019/12/example-on-device-model-personalization.html) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/model_personalization/README.md)). Here is an example from the community - on-device activity recognition for next-generation privacy-preserving personal informatics apps - [Blog](https://aqibsaeed.github.io/on-device-activity-recognition) | [Android](https://github.com/aqibsaeed/on-device-activity-recognition). Leverage transfer learning for efficiently training context sensing models directly on the Android device without the need for sending data to the server.
 * Accelerating TensorFlow Lite on Qualcomm Hexagon DSPs - [Blog](https://blog.tensorflow.org/2019/12/accelerating-tensorflow-lite-on-qualcomm.html) | [Documentation](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/hexagon_delegate.md)
 
-## TFLite models
+## TFLite models with sample apps
 Here are the TFLite models with app / device implementations, and references.  
 Note: pretrained TFLite models from MediaPipe are included, which you can implement with or without MediaPipe. 
 
@@ -57,19 +57,26 @@ Text Classification | [Download](https://storage.googleapis.com/download.tensorf
 | ------------------ |----------| ------------------- | --------- |
 | Speech Recognition | DeepSpeech | [Reference](https://github.com/mozilla/DeepSpeech/tree/master/native_client/java) | Mozilla |
 
-## TFLite model zoo <img src="images/zoo.png" width='32' height='32'/>
-TFLite models that could be implemented in apps and things:
+## Model zoo <img src="images/zoo.png" width='48' height='48'/>
+### TFLite models
+These are TFLite models that could be implemented in apps and things:
 *  [MobileNet](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet/README.md)- pretrained MobileNet v2 and v3 models.
 * TFLite models
     * [TensorFlow Lite models](https://www.tensorflow.org/lite/models) with Android and iOS examples
     * [TensorFlow Lite hosted models](https://www.tensorflow.org/lite/guide/hosted_models) with quantized and floating point variants 
     * [TFLite models from TensorFlow Hub](https://tfhub.dev/s?q=tflite)
 
-## TensorFlow model zoo <img src="images/zoo.png" width='32' height='32'/>
-TensorFlow models that could be converted to TFLite and then implemented in apps and things:
+### TensorFlow model zoo
+These are TensorFlow models that could be converted to TFLite and then implemented in apps and things:
 * [Official TensorFlow models](https://github.com/tensorflow/models/tree/master/official)
 * [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) -
 pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets
+
+## App ideas
+Here is a list of ideas - they could be either creating a tflite model ready for implementation, a mobile app idea that need a model created, or an end-to-end tutorial. 
+
+### End-to-end tutorials
+
 
 ## ML Kit examples <img src="images/mlkit.png" width='32' height='32'/>
 [ML Kit](https://developers.google.com/ml-kit) is a mobile SDK that brings Google's ML expertise to mobile devs.
