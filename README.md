@@ -75,7 +75,18 @@ pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets
 ## App ideas
 Here is a list of ideas - they could be either creating a tflite model ready for implementation, a mobile app idea that need a model created, or an end-to-end tutorial. 
 
-### End-to-end tutorials
+### End-to-end tutorials (in progress)
+* [U-GAT-IT](https://github.com/taki0112/UGATIT) (Selfie <-> Anime) - [tutorial repo](https://github.com/margaretmz/selfie2anime-e2e-tutorial)
+* [Deeplab V3](https://github.com/tensorflow/models/tree/master/research/deeplab ) - image segmentation, which is supported by TFLite but there’s no tutorial on how to convert Deeplab v3 TF models to TFLite.
+* [Mask-RCNN](https://github.com/matterport/Mask_RCNN ) object detection, which is one of the most popular on-device ML use cases.
+* [DeepSpeech](https://github.com/mozilla/DeepSpeech) - a very popular ASR framework
+
+### Project ideas (help needed!)
+* YOLO
+* Classify pose
+* Sound classification
+* SPICE (Pitch Detection)
+* Speech Command
 
 
 ## ML Kit examples <img src="images/mlkit.png" width='32' height='32'/>
