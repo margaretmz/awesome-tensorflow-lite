@@ -79,11 +79,11 @@ A list of ideas and projects - you can help by creating a tflite model ready for
 * [U-GAT-IT](https://github.com/taki0112/UGATIT) (Selfie <-> Anime) - [project repo](https://github.com/margaretmz/selfie2anime-e2e-tutorial).
 * [Deeplab V3](https://github.com/tensorflow/models/tree/master/research/deeplab ) - image segmentation, which is supported by TFLite but there’s no tutorial on how to convert Deeplab v3 TF models to TFLite.
 * [Mask-RCNN](https://github.com/matterport/Mask_RCNN ) object detection, which is one of the most popular on-device ML use cases.
-* [DeepSpeech](https://github.com/mozilla/DeepSpeech) - a very popular ASR framework
+* [DeepSpeech](https://github.com/mozilla/DeepSpeech) - a very popular ASR framework.
+* Segmentation + Style Transfer - [project repo](https://github.com/margaretmz/segmentation-style-transfer).
 
 ### Project ideas (help needed!)
 * YOLO - [overview](overviews/yolo.md)
-* Segmentation + Style Transfer - [project repo](https://github.com/margaretmz/segmentation-style-transfer).
 * Classify pose - [overview](overviews/classify_pose.md).
 * Sound classification - [overview](overviews/classify_sound.md).
 * SPICE (Pitch Detection) - [overview](overviews/spice_pitch_detection.md).
