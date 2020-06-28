@@ -76,17 +76,18 @@ pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets
 A list of ideas and projects - you can help by creating a tflite model ready for implementation, add a mobile app idea that needs a tflite model created, or write an end-to-end tutorial with sample code. This is also where you can seek help from the community.
 
 ### End-to-end tutorials (in progress)
-* [U-GAT-IT](https://github.com/taki0112/UGATIT) (Selfie <-> Anime) - [tutorial repo](https://github.com/margaretmz/selfie2anime-e2e-tutorial)
+* [U-GAT-IT](https://github.com/taki0112/UGATIT) (Selfie <-> Anime) - [project repo](https://github.com/margaretmz/selfie2anime-e2e-tutorial).
 * [Deeplab V3](https://github.com/tensorflow/models/tree/master/research/deeplab ) - image segmentation, which is supported by TFLite but there’s no tutorial on how to convert Deeplab v3 TF models to TFLite.
 * [Mask-RCNN](https://github.com/matterport/Mask_RCNN ) object detection, which is one of the most popular on-device ML use cases.
 * [DeepSpeech](https://github.com/mozilla/DeepSpeech) - a very popular ASR framework
 
 ### Project ideas (help needed!)
 * YOLO - [overview](overviews/yolo.md)
-* Classify pose - [overview](overviews/classify_pose.md)
-* Sound classification - [overview](overviews/classify_sound.md)
-* SPICE (Pitch Detection) - [overview](overviews/spice_pitch_detection.md)
-* Speech Command - [overview](overviews/speech_command.md)
+* Segmentation + Style Transfer - [project repo](https://github.com/margaretmz/segmentation-style-transfer).
+* Classify pose - [overview](overviews/classify_pose.md).
+* Sound classification - [overview](overviews/classify_sound.md).
+* SPICE (Pitch Detection) - [overview](overviews/spice_pitch_detection.md).
+* Speech Command - [overview](overviews/speech_command.md).
 
 ## ML Kit examples <img src="images/icons/mlkit.png" width='32' height='32'/>
 [ML Kit](https://developers.google.com/ml-kit) is a mobile SDK that brings Google's ML expertise to mobile devs.
