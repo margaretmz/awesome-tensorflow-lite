@@ -44,7 +44,7 @@ Segmentation (Flutter Realtime) | DeepLab V3 ([download](https://storage.googlea
 | Segmentation | Different variants of [DeepLab V3 models](https://github.com/tensorflow/models/blob/master/research/deeplab/g3doc/model_zoo.md) in TFLite | Find the models on [TF Hub](https://tfhub.dev/s?module-type=image-segmentation&publisher=sayakpaul) with Colab Notebooks | Community |
 | Hair Segmentation | [Download](https://github.com/google/mediapipe/tree/master/mediapipe/models/hair_segmentation.tflite) | [Paper](https://sites.google.com/corp/view/perception-cv4arvr/hair-segmentation) \| [Model card](https://sites.google.com/corp/view/perception-cv4arvr/hair-segmentation#h.p_NimuO7PgHxlY) | MediaPipe |
 | Style transfer |  Download: <br> [Style prediction](https://storage.googleapis.com/download.tensorflow.org/models/tflite/arbitrary_style_transfer/style_predict_quantized_256.tflite), <br> [Style transform](https://storage.googleapis.com/download.tensorflow.org/models/tflite/arbitrary_style_transfer/style_transfer_quantized_dynamic.tflite) | [Overview](https://www.tensorflow.org/lite/models/style_transfer/overview) \| [Android](https://github.com/tensorflow/examples/tree/master/lite/examples/style_transfer/android) | tensorflow.org|
-| Style transfer | Better-quality style transfer models in TFLite | Find the models on [TF Hub](https://tfhub.dev/sayakpaul/lite-model/arbitrary-image-stylization-inceptionv3/dr/predict/1) with Colab Notebooks | Ccommunity|
+| Style transfer | Better-quality style transfer models in TFLite | Find the models on [TF Hub](https://tfhub.dev/sayakpaul/lite-model/arbitrary-image-stylization-inceptionv3/dr/predict/1) with Colab Notebooks | Community|
 
 ### Text
 | Task           | Model         | App \| Reference                       | Source    |
@@ -74,26 +74,8 @@ These are TensorFlow models that could be converted to TFLite and then implement
 * [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) -
 pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets
 
-## Sample app ideas and projects <img src="images/icons/idea.png" width='32' height='32'/>
-A list of ideas and projects - you can help by creating a tflite model ready for implementation, add a mobile app idea that needs a tflite model created, or write an end-to-end tutorial with sample code. This is also where you can seek help from the community.
-
-### End-to-end tutorials (in progress)
-* Tutorial demonstrating an end-to-end worflow for training, converting, and deploying a custom object detection model in form of a mobile application. The training should ideally be done with the TF2 variant [TensorFlow Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection). [Training Notebook](https://github.com/sayakpaul/TF-2.0-Hacks/blob/master/Training_a_pets_detector_model_within_minutes_with_TFOD_API.ipynb), [Inference Notebook](https://github.com/sayakpaul/TF-2.0-Hacks/blob/master/Running%20inference%20with%20a%20custom%20TFOD%20API%20model.ipynb). 
-* [Mask-RCNN](https://github.com/matterport/Mask_RCNN ) object detection, which is one of the most popular on-device ML use cases.
-* [DeepSpeech](https://github.com/mozilla/DeepSpeech) - a very popular ASR framework.
-* Segmentation + Style Transfer - [project repo](https://github.com/margaretmz/segmentation-style-transfer).
-
-### End-to-end tutorials (complete)
-* [U-GAT-IT](https://github.com/taki0112/UGATIT) (Selfie <-> Anime) - [project repo](https://github.com/margaretmz/selfie2anime-e2e-tutorial).
-* [DeepLab V3](https://github.com/tensorflow/models/tree/master/research/deeplab ) - TFLite model conversion process for a variety of DeepLab V3 models along with inference in Python - [available from TF Hub](https://tfhub.dev/s?module-type=image-segmentation&publisher=sayakpaul).
-* [`arbitrary_image_stylization` by Magenta](https://github.com/magenta/magenta/tree/f3b66aa1354cd933f0e9757a567cc9a3d2d03297/magenta/models/arbitrary_image_stylization) - TFLite model conversion process along with inference in Python - [available from TF Hub](https://tfhub.dev/sayakpaul/lite-model/arbitrary-image-stylization-inceptionv3/dr/predict/1). 
-
-### Project ideas (help needed!)
-* YOLO - [overview](overviews/yolo.md)
-* Classify pose - [overview](overviews/classify_pose.md).
-* Sound classification - [overview](overviews/classify_sound.md).
-* SPICE (Pitch Detection) - [overview](overviews/spice_pitch_detection.md).
-* Speech Command - [overview](overviews/speech_command.md).
+## End-to-end TFLite tutorials <img src="images/icons/new.png" width='32' height='32'/>
+Checkout the [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutorials) repo for sample app ideas and in-progress end-to-end tutorials. You can also ask for help there, to get people to join your tutorial projects. Once a project gets completed, the links of the tflite model, sample code and tutorials will be added to the awesome-tflite list here.
 
 ## ML Kit examples <img src="images/icons/mlkit.png" width='32' height='32'/>
 [ML Kit](https://developers.google.com/ml-kit) is a mobile SDK that brings Google's ML expertise to mobile devs.
