@@ -59,9 +59,9 @@ Text Classification | [Download](https://storage.googleapis.com/download.tensorf
 | Task               | Model    | App \| Reference    | Source    |
 | ------------------ |----------| ------------------- | --------- |
 | Speech Recognition | DeepSpeech | [Reference](https://github.com/mozilla/DeepSpeech/tree/master/native_client/java) | Mozilla |
-| Speech Synthesis   | Tacotron-2 | [Reference](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
-| Speech Synthesis   | FastSpeech2 | [Reference](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
-| Speech Synthesis   | MB-Melgan | [Reference](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
+| Speech Synthesis   | Tacotron-2 | [Android](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
+| Speech Synthesis   | FastSpeech2 | [Android](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
+| Speech Synthesis   | MB-Melgan | [Android](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
 
 ## Model zoo <img src="images/icons/zoo.png" width='48' height='48'/>
 ### TFLite models
