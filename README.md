@@ -109,6 +109,9 @@ Checkout the [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutoria
 * [The People + AI Guide book](https://pair.withgoogle.com/) - learn how to design human-centered AI products
 * [Adventures in TFLite](https://github.com/sayakpaul/Adventures-in-TensorFlow-Lite) - A repository showing non-trivial conversion processes and general explorations in TFLite by [Sayak Paul](https://twitter.com/RisingSayak).
 
+## Production app using TFLite
+* [Propane Scanner - Propane Refill Finder Near Me](https://play.google.com/store/apps/details?id=com.propane.finder.propane.tank.refill.station.near.me) - uses a custom TFLite model to detect propane tanks around gas stations via Google street view images.
+
 ## Learning resources 
 Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
 
