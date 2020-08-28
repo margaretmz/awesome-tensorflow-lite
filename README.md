@@ -133,6 +133,7 @@ Interested but not sure how to get started? Here are some learning resources tha
 * 10/2019 - [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.practicaldeeplearning.ai/) by Anirudh Koul ([@AnirudhKoul](https://twitter.com/AnirudhKoul)), Siddha Ganju ([@SiddhaGanju](https://twitter.com/SiddhaGanju)), and Meher Kasam ([@MeherKasam](https://twitter.com/MeherKasam)).
 
 ### YouTube videos <img src="images/icons/youtube.png" width='36' height='25'/>
+* 7/25/2020 - [Android ML by Hoi Lam](https://youtu.be/m_bEh8YifnQ) (GDG Kolkata meetup)
 * 4/1/2020 - [Easy on-device ML from prototype to production](https://youtu.be/ALxWJoh_BHw) (TF Dev Summit '20)
 * 3/11/2020 - [TensorFlow Lite: ML for mobile and IoT devices](https://youtu.be/27Zx-4GOQA8) (TF Dev Summit '20)
 * 10/31/2019 - [Keynote - TensorFlow Lite: ML for mobile and IoT devices](https://www.youtube.com/watch?v=zjDGAiLqGk8) 
@@ -140,6 +141,9 @@ Interested but not sure how to get started? Here are some learning resources tha
 * 10/31/2019 - [TensorFlow model optimization: Quantization and pruning](https://www.youtube.com/watch?v=3JWRVx1OKQQ) 
 * 10/29/2019 - [Inside TensorFlow: TensorFlow Lite](https://www.youtube.com/watch?v=gHN0jDbJz8E&t=540s)
 * 4/18/2018 - [TensorFlow Lite for Android (Coding TensorFlow)](https://www.youtube.com/watch?v=JnhW5tQ_7Vo&t=22s)
+
+### Podcasts
+* 8/8/2020 - [Talking Machine Learning with Hoi Lam](https://anchor.fm/talkingwithapples/episodes/Talking-Machine-Learning-with-Hoi-Lam-eiaj7v)
 
 ### MOOC <img src="images/icons/mooc.png" width='32' height='32'/>
 * Udacity [Introduction to TensorFlow Lite](https://www.udacity.com/course/intro-to-tensorflow-lite--ud190) - by Daniel Situnayake ([@dansitu](https://twitter.com/dansitu)), Paige Bailey ([@DynamicWebPaige](https://twitter.com/DynamicWebPaige)), and Juan Delgado
