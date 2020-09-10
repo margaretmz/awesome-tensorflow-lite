@@ -2,12 +2,12 @@
 <p align="center"><img src="images/awesome-tflite.png" /></p>
 
 # Awesome TFLite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Twitter](https://img.shields.io/badge/Twitter-%40margaretmz-blue)](https://twitter.com/margaretmz)
-TensorFlow Lite (TFLite) is a set of tools that help convert and optimize TensorFlow models to run on mobile and edge devices - currently running on more than 4 billion devices! With TensorFlow 2.x, you can train a model with tf.Keras, easily convert model to .tflite and deploy it; or you can download a pretrained TFLite model from the model zoo.
+TensorFlow Lite (TFLite) is a set of tools that help convert and optimize TensorFlow models to run on mobile and edge devices. It's currently running on more than 4 billion devices! With TensorFlow 2.x, you can train a model with tf.Keras, easily convert a model to .tflite and deploy it; or you can download a pretrained TFLite model from the model zoo.
 
-This is a curated list of TFLite models with sample apps, model zoo, helpful tools and learning resources. The purpose of this repo:
+This is an awesome list of TFLite models with sample apps, helpful tools and learning resources. This awesome list was created to:
 * Showcase what the community has built with TFLite 
-* Put all the samples side-by-side for easy references
-* Knowledge sharing and learning for everyone
+* Put all the samples side-by-side for easy reference
+* Share knowledge and learning resrouces
 
 Please submit a PR if you would like to contribute and follow the guidelines [here](CONTRIBUTING.md).
 
