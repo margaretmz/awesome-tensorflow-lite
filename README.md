@@ -4,10 +4,10 @@
 # Awesome TFLite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Twitter](https://img.shields.io/badge/Twitter-%40margaretmz-blue)](https://twitter.com/margaretmz)
 TensorFlow Lite (TFLite) is a set of tools that help convert and optimize TensorFlow models to run on mobile and edge devices - currently running on more than 4 billion devices! With TensorFlow 2.x, you can train a model with tf.Keras, easily convert model to .tflite and deploy it; or you can download a pretrained TFLite model from the model zoo.
 
-This is a curated list of TFLite models with sample apps, model zoo, helpful tools and learning resources. The purpose of this repo is to -
-* showcase what the community has built with TFLite 
-* put all the samples side-by-side for easy references
-* knowledge sharing and learning for everyone
+This is a curated list of TFLite models with sample apps, model zoo, helpful tools and learning resources. The purpose of this repo:
+* Showcase what the community has built with TFLite 
+* Put all the samples side-by-side for easy references
+* Knowledge sharing and learning for everyone
 
 Please submit a PR if you would like to contribute and follow the guidelines [here](CONTRIBUTING.md).
 
@@ -35,10 +35,10 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
 ## New features <img src="images/icons/new.png" width='32' height='32'/>
 Here are some new features recently announced at TensorFlow World:
 * New **[MLIR](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)-based TFLite converter** - enables conversion of new classes of models such as Mask R-CNN and Mobile BERT etc, supports functional control flow and better error handling during conversion. It is now enabled by default in the nightly builds -  see details in the [updated](https://groups.google.com/a/tensorflow.org/d/msg/tflite/Z_h7706dt8Q/sNrjPj4yGgAJ) & [initial](https://groups.google.com/a/tensorflow.org/forum/#!msg/tflite/C7Ag0sUrLYg/tHYfDHmNAAAJ) announcements.
-* **TFLite Android Support Library** - [documentation](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/support/java) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/EXPLORE_THE_CODE.md))
-* Create your custom classification models easily with the **TFLite Model Maker** (~~model customization API~~) -  Colab tutorials for [Image & Text](https://github.com/tensorflow/examples/tree/master/tensorflow_examples/lite/model_maker)
+* **TFLite Android Support Library** - [documentation](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/support/java) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/EXPLORE_THE_CODE.md)).
+* Create your custom classification models easily with the **TFLite Model Maker** (~~model customization API~~) -  Colab tutorials for [Image & Text](https://github.com/tensorflow/examples/tree/master/tensorflow_examples/lite/model_maker).
 * **On-device training** is finally here! Currently limited to transfer learning for image classification only but it's a great start - [Blog](https://blog.tensorflow.org/2019/12/example-on-device-model-personalization.html) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/model_personalization/README.md)). Here is an example from the community - on-device activity recognition for next-generation privacy-preserving personal informatics apps - [Blog](https://aqibsaeed.github.io/on-device-activity-recognition) | [Android](https://github.com/aqibsaeed/on-device-activity-recognition). Leverage transfer learning for efficiently training context sensing models directly on the Android device without the need for sending data to the server.
-* Accelerating TensorFlow Lite on Qualcomm Hexagon DSPs - [Blog](https://blog.tensorflow.org/2019/12/accelerating-tensorflow-lite-on-qualcomm.html) | [Documentation](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/hexagon_delegate.md)
+* Accelerating TensorFlow Lite on Qualcomm Hexagon DSPs - [Blog](https://blog.tensorflow.org/2019/12/accelerating-tensorflow-lite-on-qualcomm.html) | [Documentation](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/hexagon_delegate.md).
 
 ## Models with samples
 Here are the TFLite models with app / device implementations, and references.  
@@ -97,9 +97,9 @@ These are TFLite models that could be implemented in apps and things:
 
 ### TensorFlow models
 These are TensorFlow models that could be converted to TFLite and then implemented in apps and things:
-* [Official TensorFlow models](https://github.com/tensorflow/models/tree/master/official)
+* [Official TensorFlow models](https://github.com/tensorflow/models/tree/master/official).
 * [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) -
-pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets
+pre-trained on COCO, KITTI,  AVA v2.1, iNaturalist Species datasets.
 
 ## Ideas and Inspiration <img src="images/icons/new.png" width='32' height='32'/>
 Checkout the [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutorials) repo for sample app ideas and seeking help for your tutorial projects. Once a project gets completed, the links of the tflite model, sample code and tutorials will be added to this awesome list.
@@ -118,26 +118,26 @@ Checkout the [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutoria
 * 5/22/2018 ML Kit on Android 1: Intro - [tutorial](https://medium.com/google-developer-experts/exploring-firebase-mlkit-on-android-introducing-mlkit-part-one-98fcfedbeee0).
 
 ## Plugins, SDKs & platforms
-* [Edge Impulse](https://www.edgeimpulse.com/) - helps you to train TFLite models for embedded devices in the cloud. ([@EdgeImpulse](https://twitter.com/EdgeImpulse))
-* [Fritz.ai](https://www.fritz.ai/) - an ML platform that makes iOS and Android developers’ life easier: with pre-trained ML models and end-to-end platform for building and deploying custom trained models. ([@fritzlabs](https://twitter.com/fritzlabs))
-* [MediaPipe](https://github.com/google/mediapipe) - a cross platform (mobile, desktop and Edge TPUs) AI pipeline by Google AI. (PM [Ming Yong](https://twitter.com/realmgyong)) | [MediaPipe examples](https://mediapipe.readthedocs.io/en/latest/examples.html)
-* [Coral Edge TPU](https://coral.ai/) - Google’s edge hardware. [Coral Edge TPU examples](https://coral.ai/examples/)
-* [TFLite Flutter Plugin](https://github.com/am15h/tflite_flutter_plugin/) - provides a dart API similar to the TFLite Java API for accessing TensorFlow Lite interpreter and performing inference in flutter apps. [tflite_flutter on pub.dev](https://pub.dev/packages/tflite_flutter)
+* [Edge Impulse](https://www.edgeimpulse.com/) by [@EdgeImpulse](https://twitter.com/EdgeImpulse) - helps you to train TFLite models for embedded devices in the cloud. 
+* [Fritz.ai](https://www.fritz.ai/) by [@fritzlabs](https://twitter.com/fritzlabs) - an ML platform that makes iOS and Android developers’ life easier: with pre-trained ML models and end-to-end platform for building and deploying custom trained models. 
+* [MediaPipe](https://github.com/google/mediapipe) by Google AI - a cross platform (mobile, desktop and Edge TPUs) AI pipeline. (PM [Ming Yong](https://twitter.com/realmgyong)) | [MediaPipe examples](https://mediapipe.readthedocs.io/en/latest/examples.html).
+* [Coral Edge TPU](https://coral.ai/) - Google’s edge hardware. [Coral Edge TPU examples](https://coral.ai/examples/).
+* [TFLite Flutter Plugin](https://github.com/am15h/tflite_flutter_plugin/) - provides a dart API similar to the TFLite Java API for accessing TensorFlow Lite interpreter and performing inference in flutter apps. [tflite_flutter on pub.dev](https://pub.dev/packages/tflite_flutter).
 
 ## Helpful links <img src="images/icons/helpful.png" width='32' height='32'/>
-* [Netron](https://github.com/lutzroeder/netron) - for visualizing models
-* [AI benchmark](http://ai-benchmark.com/tests.html)  - for benchmarking computer vision models on smartphones
-* [Performance benchmarks](https://www.tensorflow.org/lite/performance/benchmarks) for Android and iOS
-* How to design machine learning powered features - [material design guidelines for ML](https://material.io/collections/machine-learning/patterns-for-machine-learning-powered-features.html) | [ML Kit Showcase App](https://github.com/firebase/mlkit-material-android)
-* [The People + AI Guide book](https://pair.withgoogle.com/) - learn how to design human-centered AI products
+* [Netron](https://github.com/lutzroeder/netron) - for visualizing models.
+* [AI benchmark](http://ai-benchmark.com/tests.html)  - for benchmarking computer vision models on smartphones.
+* [Performance benchmarks](https://www.tensorflow.org/lite/performance/benchmarks) for Android and iOS.
+* How to design machine learning powered features - [material design guidelines for ML](https://material.io/collections/machine-learning/patterns-for-machine-learning-powered-features.html) | [ML Kit Showcase App](https://github.com/firebase/mlkit-material-android).
+* [The People + AI Guide book](https://pair.withgoogle.com/) - learn how to design human-centered AI products.
 * [Adventures in TFLite](https://github.com/sayakpaul/Adventures-in-TensorFlow-Lite) - A repository showing non-trivial conversion processes and general explorations in TFLite by [Sayak Paul](https://twitter.com/RisingSayak).
 
 ## Learning resources 
 Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
 
 ### Documentation <img src="images/icons/docs.png" width='32' height='32'/>
-* TensorFlow Lite documentation ([link](https://www.tensorflow.org/lite))
-* TensorFlow Lite for Microcontrollers documentation ([link](https://www.tensorflow.org/lite/microcontrollers))
+* TensorFlow Lite documentation ([link](https://www.tensorflow.org/lite)).
+* TensorFlow Lite for Microcontrollers documentation ([link](https://www.tensorflow.org/lite/microcontrollers)).
 
 ### Blog posts <img src="images/icons/blog.png" width='32' height='32'/>
 * 4/20/2020 - What’s new in TensorFlow Lite from DevSummit 2020, Khanh LeViet. ([link](https://blog.tensorflow.org/2020/04/whats-new-in-tensorflow-lite-from-devsummit-2020.html))
@@ -155,18 +155,18 @@ Interested but not sure how to get started? Here are some learning resources tha
 * 10/2019 - [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.practicaldeeplearning.ai/) by Anirudh Koul ([@AnirudhKoul](https://twitter.com/AnirudhKoul)), Siddha Ganju ([@SiddhaGanju](https://twitter.com/SiddhaGanju)), and Meher Kasam ([@MeherKasam](https://twitter.com/MeherKasam)).
 
 ### Videos <img src="images/icons/youtube.png" width='36' height='25'/>
-* 7/25/2020 - [Android ML by Hoi Lam](https://youtu.be/m_bEh8YifnQ) (GDG Kolkata meetup)
-* 4/1/2020 - [Easy on-device ML from prototype to production](https://youtu.be/ALxWJoh_BHw) (TF Dev Summit '20)
-* 3/11/2020 - [TensorFlow Lite: ML for mobile and IoT devices](https://youtu.be/27Zx-4GOQA8) (TF Dev Summit '20)
-* 10/31/2019 - [Keynote - TensorFlow Lite: ML for mobile and IoT devices](https://www.youtube.com/watch?v=zjDGAiLqGk8) 
-* 10/31/2019 - [TensorFlow Lite: Solution for running ML on-device](https://www.youtube.com/watch?v=0SpZy7iouFU)
-* 10/31/2019 - [TensorFlow model optimization: Quantization and pruning](https://www.youtube.com/watch?v=3JWRVx1OKQQ) 
-* 10/29/2019 - [Inside TensorFlow: TensorFlow Lite](https://www.youtube.com/watch?v=gHN0jDbJz8E&t=540s)
-* 4/18/2018 - [TensorFlow Lite for Android (Coding TensorFlow)](https://www.youtube.com/watch?v=JnhW5tQ_7Vo&t=22s)
+* 7/25/2020 - [Android ML by Hoi Lam](https://youtu.be/m_bEh8YifnQ) (GDG Kolkata meetup).
+* 4/1/2020 - [Easy on-device ML from prototype to production](https://youtu.be/ALxWJoh_BHw) (TF Dev Summit '20).
+* 3/11/2020 - [TensorFlow Lite: ML for mobile and IoT devices](https://youtu.be/27Zx-4GOQA8) (TF Dev Summit '20).
+* 10/31/2019 - [Keynote - TensorFlow Lite: ML for mobile and IoT devices](https://www.youtube.com/watch?v=zjDGAiLqGk8).
+* 10/31/2019 - [TensorFlow Lite: Solution for running ML on-device](https://www.youtube.com/watch?v=0SpZy7iouFU).
+* 10/31/2019 - [TensorFlow model optimization: Quantization and pruning](https://www.youtube.com/watch?v=3JWRVx1OKQQ). 
+* 10/29/2019 - [Inside TensorFlow: TensorFlow Lite](https://www.youtube.com/watch?v=gHN0jDbJz8E&t=540s).
+* 4/18/2018 - [TensorFlow Lite for Android (Coding TensorFlow)](https://www.youtube.com/watch?v=JnhW5tQ_7Vo&t=22s).
 
 ### Podcasts
-* 8/8/2020 - [Talking Machine Learning with Hoi Lam](https://anchor.fm/talkingwithapples/episodes/Talking-Machine-Learning-with-Hoi-Lam-eiaj7v)
+* 8/8/2020 - [Talking Machine Learning with Hoi Lam](https://anchor.fm/talkingwithapples/episodes/Talking-Machine-Learning-with-Hoi-Lam-eiaj7v).
 
 ### MOOCs <img src="images/icons/mooc.png" width='32' height='32'/>
-* Udacity [Introduction to TensorFlow Lite](https://www.udacity.com/course/intro-to-tensorflow-lite--ud190) - by Daniel Situnayake ([@dansitu](https://twitter.com/dansitu)), Paige Bailey ([@DynamicWebPaige](https://twitter.com/DynamicWebPaige)), and Juan Delgado
-* Coursera [Device-based Models with TensorFlow Lite](https://www.coursera.org/learn/device-based-models-tensorflow) - by Laurence Moroney ([@lmoroney](https://twitter.com/lmoroney))
+* Udacity [Introduction to TensorFlow Lite](https://www.udacity.com/course/intro-to-tensorflow-lite--ud190) - by Daniel Situnayake ([@dansitu](https://twitter.com/dansitu)), Paige Bailey ([@DynamicWebPaige](https://twitter.com/DynamicWebPaige)), and Juan Delgado.
+* Coursera [Device-based Models with TensorFlow Lite](https://www.coursera.org/learn/device-based-models-tensorflow) - by Laurence Moroney ([@lmoroney](https://twitter.com/lmoroney)).
