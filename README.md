@@ -88,8 +88,9 @@ Note: pretrained TFLite models from MediaPipe are included, which you can implem
 | Speech Synthesis   | FastSpeech2 | [Android](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
 | Speech Synthesis   | MB-Melgan   | [Android](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
 
-## Model zoo 
 <img src="images/icons/zoo.png" width='48' height='48'/>
+
+## Model zoo 
 
 ### TFLite models
 These are TFLite models that could be implemented in apps and things:
@@ -107,9 +108,9 @@ These are TensorFlow models that could be converted to TFLite and then implement
 ## Ideas and Inspiration
 Checkout the [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutorials) repo for sample app ideas and seeking help for your tutorial projects. Once a project gets completed, the links of the tflite model, sample code and tutorials will be added to this awesome list.
 
-## ML Kit examples 
 <img src="images/icons/mlkit.png" width='32' height='32'/>
 
+## ML Kit examples 
 [ML Kit](https://developers.google.com/ml-kit) is a mobile SDK that brings Google's ML expertise to mobile devs.
 * 10/1/2019 ML Kit Translate demo with material design - recognize, identify Language and translate text from live camera with ML Kit for Firebase - [Codelab](https://codelabs.developers.google.com/codelabs/mlkit-android-translate/#0) | [Android](https://github.com/googlecodelabs/mlkit-android/tree/master/translate) (Kotlin).
 * 3/13/2019 Computer Vision with ML Kit - Flutter In Focus - [tutorial](https://youtu.be/ymyYUCrJnxU).
@@ -129,9 +130,9 @@ Checkout the [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutoria
 * [Coral Edge TPU](https://coral.ai/) - edge hardware by Google. [Coral Edge TPU examples](https://coral.ai/examples/).
 * [TFLite Flutter Plugin](https://github.com/am15h/tflite_flutter_plugin/) - Provides a dart API similar to the TFLite Java API for accessing TensorFlow Lite interpreter and performing inference in flutter apps. [tflite_flutter on pub.dev](https://pub.dev/packages/tflite_flutter).
 
-## Helpful links 
 <img src="images/icons/helpful.png" width='32' height='32'/>
 
+## Helpful links 
 * [Netron](https://github.com/lutzroeder/netron) - A tool for visualizing models.
 * [AI benchmark](http://ai-benchmark.com/tests.html) - A website for benchmarking computer vision models on smartphones.
 * [Performance measurement](https://www.tensorflow.org/lite/performance/measurement) - How to measure model performence on Android and iOS.
@@ -142,14 +143,14 @@ Checkout the [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutoria
 ## Learning resources 
 Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
 
-### Documentation 
 <img src="images/icons/docs.png" width='32' height='32'/>
 
+### Documentation 
 * TensorFlow Lite documentation ([link](https://www.tensorflow.org/lite)).
 * TensorFlow Lite for Microcontrollers documentation ([link](https://www.tensorflow.org/lite/microcontrollers)).
 
-### Blog posts 
 <img src="images/icons/blog.png" width='32' height='32'/>
+### Blog posts 
 
 * 4/20/2020 What is new in TensorFlow Lite from DevSummit 2020, Khanh LeViet. ([link](https://blog.tensorflow.org/2020/04/whats-new-in-tensorflow-lite-from-devsummit-2020.html))
 * 4/17/2020 - Optimizing style transfer to run on mobile with TFLite, Khanh LeViet and Luiz Gustavo Martins. ([link](https://blog.tensorflow.org/2020/04/optimizing-style-transfer-to-run-on-mobile-with-tflite.html))
@@ -160,16 +161,16 @@ Interested but not sure how to get started? Here are some learning resources tha
 * 6/11/2018 - Why the Future of Machine Learning is Tiny, Pete Warden. ([link](https://petewarden.com/2018/06/11/why-the-future-of-machine-learning-is-tiny/))
 * 3/30/2018 - Using TensorFlow Lite on Android, Laurence Moroney. ([link](https://blog.tensorflow.org/2018/03/using-tensorflow-lite-on-android.html))
 
-### Books 
 <img src="images/icons/books.png" height='32'/>
 
+### Books 
 * 03/2020 Raspberry Pi for Computer Vision ([Complete Bundle](https://www.pyimagesearch.com/raspberry-pi-for-computer-vision) | [TOC](https://www.pyimagesearch.com/2019/04/05/table-of-contents-raspberry-pi-for-computer-vision/)) by the PyImageSearch Team: Adrian Rosebrock ([@PyImageSearch](https://twitter.com/PyImageSearch)), David Hoffman, Asbhishek Thanki, Sayak Paul ([@RisingSayak](https://twitter.com/RisingSayak)), and David Mcduffee.
 * 12/2019 [TinyML](http://shop.oreilly.com/product/0636920254508.do) by Pete Warden ([@petewarden](https://twitter.com/petewarden)) and Daniel Situnayake ([@dansitu](https://twitter.com/dansitu)). 
 * 10/2019 [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.practicaldeeplearning.ai/) by Anirudh Koul ([@AnirudhKoul](https://twitter.com/AnirudhKoul)), Siddha Ganju ([@SiddhaGanju](https://twitter.com/SiddhaGanju)), and Meher Kasam ([@MeherKasam](https://twitter.com/MeherKasam)).
 
-### Videos 
 <img src="images/icons/youtube.png" width='36' height='25'/>
 
+### Videos 
 * 7/25/2020 [Android ML by Hoi Lam](https://youtu.be/m_bEh8YifnQ) (GDG Kolkata meetup).
 * 4/1/2020 [Easy on-device ML from prototype to production](https://youtu.be/ALxWJoh_BHw) (TF Dev Summit 2020).
 * 3/11/2020 [TensorFlow Lite: ML for mobile and IoT devices](https://youtu.be/27Zx-4GOQA8) (TF Dev Summit 2020).
@@ -182,8 +183,8 @@ Interested but not sure how to get started? Here are some learning resources tha
 ### Podcasts
 * 8/8/2020 [Talking Machine Learning with Hoi Lam](https://anchor.fm/talkingwithapples/episodes/Talking-Machine-Learning-with-Hoi-Lam-eiaj7v).
 
-### MOOCs 
 <img src="images/icons/mooc.png" width='32' height='32'/>
 
+### MOOCs 
 * [Introduction to TensorFlow Lite](https://www.udacity.com/course/intro-to-tensorflow-lite--ud190) - Udacity course by Daniel Situnayake ([@dansitu](https://twitter.com/dansitu)), Paige Bailey ([@DynamicWebPaige](https://twitter.com/DynamicWebPaige)), and Juan Delgado.
 * [Device-based Models with TensorFlow Lite](https://www.coursera.org/learn/device-based-models-tensorflow) - Coursera course by Laurence Moroney ([@lmoroney](https://twitter.com/lmoroney)).
