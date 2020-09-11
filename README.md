@@ -92,7 +92,7 @@ These are TFLite models that could be implemented in apps and things:
 * TFLite models
   * [TensorFlow Lite models](https://www.tensorflow.org/lite/models) - With official Android and iOS examples.
   * [TensorFlow Lite hosted models](https://www.tensorflow.org/lite/guide/hosted_models) - Quantized and floating point variants.
-  * [TFLite models on the TensorFlow Hub](https://tfhub.dev/s?q=tflite) - Ready for inference.
+  * [TFLite models on the TensorFlow Hub](https://tfhub.dev/) - Set "Model format" = TFLite to find TFLite models.
 
 ### TensorFlow models
 These are TensorFlow models that could be converted to TFLite and then implemented in apps and things:
@@ -181,5 +181,5 @@ Interested but not sure how to get started? Here are some learning resources tha
 <img src="images/icons/mooc.png" width='32' height='32'/>
 
 ### MOOCs 
-* [Introduction to TensorFlow Lite](https://www.udacity.com/course/intro-to-tensorflow-lite--ud190) - Udacity course by Daniel Situnayake ([@dansitu](https://twitter.com/dansitu)), Paige Bailey ([@DynamicWebPaige](https://twitter.com/DynamicWebPaige)), and Juan Delgado.
+* [Introduction to TensorFlow Lite](https://www.udacity.com/course/intro-to-tensorflow-lite--ud190) - Udacity course by Daniel Situnayake (@dansitu), Paige Bailey ([@DynamicWebPaige](https://twitter.com/DynamicWebPaige)), and Juan Delgado.
 * [Device-based Models with TensorFlow Lite](https://www.coursera.org/learn/device-based-models-tensorflow) - Coursera course by Laurence Moroney ([@lmoroney](https://twitter.com/lmoroney)).
