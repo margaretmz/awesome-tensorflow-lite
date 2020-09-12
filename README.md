@@ -8,7 +8,7 @@ TensorFlow Lite (TFLite) is a set of tools that help convert and optimize Tensor
 This is an awesome list of TFLite models with sample apps, helpful tools and learning resources. This awesome list was created to:
 * Showcase what the community has built with TFLite 
 * Put all the samples side-by-side for easy reference
-* Share knowledge and learning resrouces
+* Share knowledge and learning resources
 
 Please submit a PR if you would like to contribute and follow the guidelines [here](CONTRIBUTING.md).
 
@@ -35,7 +35,7 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
 
 ## Recent features 
 Here are the features announced at TensorFlow World: <img src="images/icons/new.png" width='32' height='32'/>
-* New [MLIR](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)-based TFLite converter - enables conversion of new classes of models such as Mask R-CNN and Mobile BERT etc, supports functional control flow and better error handling during conversion. It is now enabled by default in the nightly builds -  see details in the [updated](https://groups.google.com/a/tensorflow.org/d/msg/tflite/Z_h7706dt8Q/sNrjPj4yGgAJ) & [initial](https://groups.google.com/a/tensorflow.org/forum/#!msg/tflite/C7Ag0sUrLYg/tHYfDHmNAAAJ) announcements.
+* New [MLIR](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)-based TFLite converter - enables conversion of new classes of models such as Mask R-CNN and Mobile BERT etc., supports functional control flow and better error handling during conversion. It is now enabled by default in the nightly builds -  see details in the [updated](https://groups.google.com/a/tensorflow.org/d/msg/tflite/Z_h7706dt8Q/sNrjPj4yGgAJ) & [initial](https://groups.google.com/a/tensorflow.org/forum/#!msg/tflite/C7Ag0sUrLYg/tHYfDHmNAAAJ) announcements.
 * TFLite Android Support Library - [documentation](https://github.com/tensorflow/tflite-support/tree/master/tensorflow_lite_support/java) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/EXPLORE_THE_CODE.md)).
 * Create your custom classification models easily with the **TFLite Model Maker** (~~model customization API~~) -  Colab tutorials for [Image & Text](https://github.com/tensorflow/examples/tree/master/tensorflow_examples/lite/model_maker).
 * On-device training is finally here! Currently limited to transfer learning for image classification only but it's a great start - [Blog](https://blog.tensorflow.org/2019/12/example-on-device-model-personalization.html) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/model_personalization/README.md)). Here is an example from the community - on-device activity recognition for next-generation privacy-preserving personal informatics apps - [Blog](https://aqibsaeed.github.io/on-device-activity-recognition) | [Android](https://github.com/aqibsaeed/on-device-activity-recognition). Leverage transfer learning for efficiently training context sensing models directly on the Android device without the need for sending data to the server.
@@ -100,12 +100,12 @@ These are TensorFlow models that could be converted to TFLite and then implement
 * [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) - Pre-trained on COCO, KITTI, AVA v2.1, iNaturalist Species datasets.
 
 ## Ideas and Inspiration
-Checkout the [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutorials) repo for sample app ideas and seeking help for your tutorial projects. Once a project gets completed, the links of the tflite model, sample code and tutorials will be added to this awesome list.
+Checkout the [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutorials) repo for sample app ideas and seeking help for your tutorial projects. Once a project gets completed, the links of the TFLite model(s), sample code and tutorial will be added to this awesome list.
 
 <img src="images/icons/mlkit.png" width='32' height='32'/>
 
 ## ML Kit examples 
-[ML Kit](https://developers.google.com/ml-kit) is a mobile SDK that brings Google's ML expertise to mobile devs.
+[ML Kit](https://developers.google.com/ml-kit) is a mobile SDK that brings Google's ML expertise to mobile developers.
 * 10/1/2019 ML Kit Translate demo with material design - recognize, identify Language and translate text from live camera with ML Kit for Firebase - [Codelab](https://codelabs.developers.google.com/codelabs/mlkit-android-translate/#0) | [Android](https://github.com/googlecodelabs/mlkit-android/tree/master/translate) (Kotlin).
 * 3/13/2019 Computer Vision with ML Kit - Flutter In Focus - [tutorial](https://youtu.be/ymyYUCrJnxU).
 * 2/9/219 Flutter + MLKit: Business Card Mail Extractor - [tutorial](https://medium.com/flutter-community/flutter-mlkit-8039ec66b6a) | [Flutter](https://github.com/DaemonLoki/Business-Card-Mail-Extractor).
@@ -129,7 +129,7 @@ Checkout the [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutoria
 ## Helpful links 
 * [Netron](https://github.com/lutzroeder/netron) - A tool for visualizing models.
 * [AI benchmark](http://ai-benchmark.com/tests.html) - A website for benchmarking computer vision models on smartphones.
-* [Performance measurement](https://www.tensorflow.org/lite/performance/measurement) - How to measure model performence on Android and iOS.
+* [Performance measurement](https://www.tensorflow.org/lite/performance/measurement) - How to measure model performance on Android and iOS.
 * [Material design guidelines for ML](https://material.io/collections/machine-learning/patterns-for-machine-learning-powered-features.html) - How to design machine learning powered features. A good example: [ML Kit Showcase App](https://github.com/firebase/mlkit-material-android).
 * [The People + AI Guide book](https://pair.withgoogle.com/) - Learn how to design human-centered AI products.
 * [Adventures in TFLite](https://github.com/sayakpaul/Adventures-in-TensorFlow-Lite) - A repository showing non-trivial conversion processes and general explorations in TFLite.
@@ -152,7 +152,7 @@ Interested but not sure how to get started? Here are some learning resources tha
 * 4/14/2020 - How TensorFlow Lite helps you from prototype to product, Khanh LeViet. ([link](https://blog.tensorflow.org/2020/04/how-tensorflow-lite-helps-you-from-prototype-to-product.html))
 * 11/8/2019 - Getting  Started with ML on MCUs with TensorFlow, BRANDON SATROM. ([link](https://blog.particle.io/2019/11/08/particle-machine-learning-101/))
 * 8/5/2019 - TensorFlow Model Optimization Toolkit — float16 quantization halves model size, the TensorFlow team. ([link](https://blog.tensorflow.org/2019/08/tensorflow-model-optimization-toolkit_5.html))
-* 7/13/2018 - Training and serving a realtime mobile object detector in 30 minutes with Cloud TPUs, Sara Robinson, Aakanksha Chowdhery, and Jonathan Huang. ([link](https://blog.tensorflow.org/2018/07/training-and-serving-realtime-mobile-object-detector-cloud-tpus.html))
+* 7/13/2018 - Training and serving a real-time mobile object detector in 30 minutes with Cloud TPUs, Sara Robinson, Aakanksha Chowdhery, and Jonathan Huang. ([link](https://blog.tensorflow.org/2018/07/training-and-serving-realtime-mobile-object-detector-cloud-tpus.html))
 * 6/11/2018 - Why the Future of Machine Learning is Tiny, Pete Warden. ([link](https://petewarden.com/2018/06/11/why-the-future-of-machine-learning-is-tiny/))
 * 3/30/2018 - Using TensorFlow Lite on Android, Laurence Moroney. ([link](https://blog.tensorflow.org/2018/03/using-tensorflow-lite-on-android.html))
 
