@@ -13,7 +13,7 @@ This is an awesome list of TFLite models with sample apps, helpful tools and lea
 Please submit a PR if you would like to contribute and follow the guidelines [here](CONTRIBUTING.md).
 
 ## Contents
-* [Recent features](#recent-features)
+* [What is new?](#what-is-new?)
 * [Models with samples](#models-with-samples)
   * [Computer vision](#computer-vision)
   * [Text](#text)
@@ -33,13 +33,14 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
   * [Podcasts](#podcasts)
   * [MOOCs](#moocs)
 
-## Recent features 
-Here are the features announced at TensorFlow World: <img src="images/icons/new.png" width='32' height='32'/>
-* New [MLIR](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)-based TFLite converter - enables conversion of new classes of models such as Mask R-CNN and Mobile BERT etc., supports functional control flow and better error handling during conversion. It is now enabled by default in the nightly builds -  see details in the [updated](https://groups.google.com/a/tensorflow.org/d/msg/tflite/Z_h7706dt8Q/sNrjPj4yGgAJ) & [initial](https://groups.google.com/a/tensorflow.org/forum/#!msg/tflite/C7Ag0sUrLYg/tHYfDHmNAAAJ) announcements.
-* TFLite Android Support Library - [documentation](https://github.com/tensorflow/tflite-support/tree/master/tensorflow_lite_support/java) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/EXPLORE_THE_CODE.md)).
-* Create your custom classification models easily with the **TFLite Model Maker** (~~model customization API~~) -  Colab tutorials for [Image & Text](https://github.com/tensorflow/examples/tree/master/tensorflow_examples/lite/model_maker).
-* On-device training is finally here! Currently limited to transfer learning for image classification only but it's a great start - [Blog](https://blog.tensorflow.org/2019/12/example-on-device-model-personalization.html) | Sample code ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/model_personalization/README.md)). Here is an example from the community - on-device activity recognition for next-generation privacy-preserving personal informatics apps - [Blog](https://aqibsaeed.github.io/on-device-activity-recognition) | [Android](https://github.com/aqibsaeed/on-device-activity-recognition). Leverage transfer learning for efficiently training context sensing models directly on the Android device without the need for sending data to the server.
-* Accelerating TensorFlow Lite on Qualcomm Hexagon DSPs - [Blog](https://blog.tensorflow.org/2019/12/accelerating-tensorflow-lite-on-qualcomm.html) | [Documentation](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/hexagon_delegate.md).
+## What is new?
+Here are the new features and tools of TensorFlow Lite:: <img src="images/icons/new.png" width='32' height='32'/>
+* [Announcement of the new TFLite converter](https://groups.google.com/a/tensorflow.org/d/msg/tflite/Z_h7706dt8Q/sNrjPj4yGgAJ) - [MLIR](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)-based and enables conversion of new classes of models such as Mask R-CNN and Mobile BERT etc., supports functional control flow and better error handling during conversion. Enabled by default in the nightly builds\.
+* [TFLite Android Support Library](https://github.com/tensorflow/tflite-support/tree/master/tensorflow_lite_support/java) - Makes mobile development easier ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/EXPLORE_THE_CODE.md) sample code).
+* [TFLite Model Maker](https://www.tensorflow.org/lite/guide/model_maker) - Create your custom [image & text](https://github.com/tensorflow/examples/tree/master/tensorflow_examples/lite/model_maker)classification models easily in a few lines of code.
+* [On-device training](https://blog.tensorflow.org/2019/12/example-on-device-model-personalization.html) - It is finally here! Currently limited to transfer learning for image classification only but it's a great start. See the official [Android](https://github.com/tensorflow/examples/blob/master/lite/examples/model_personalization/README.md) sample code and another one from the community ([Blog](https://aqibsaeed.github.io/on-device-activity-recognition) | [Android](https://github.com/aqibsaeed/on-device-activity-recognition)).
+* [TensorFlow Lite Hexagon delegate](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/hexagon_delegate.md) - How to use the TFLite Hexagon Delegate to speed up model inference on mobile and edge devices. Also see blog post  [Accelerating TensorFlow Lite on Qualcomm Hexagon DSPs](https://blog.tensorflow.org/2019/12/accelerating-tensorflow-lite-on-qualcomm.html).
+* [Model Metadata](https://www.tensorflow.org/lite/convert/metadata) - Provides a standard for model descriptions which also enables [Code Gen](https://www.tensorflow.org/lite/inference_with_metadata/codegen#generate_code_with_tensorflow_lite_android_code_generator) and [Android Studio ML Binding](https://www.tensorflow.org/lite/inference_with_metadata/codegen#generate_code_with_android_studio_ml_model_binding).
 
 ## Models with samples
 Here are the TFLite models with app / device implementations, and references.  
