@@ -134,6 +134,7 @@ These are TensorFlow models that could be converted to TFLite and then implement
 * [Material design guidelines for ML](https://material.io/collections/machine-learning/patterns-for-machine-learning-powered-features.html) - How to design machine learning powered features. A good example: [ML Kit Showcase App](https://github.com/firebase/mlkit-material-android).
 * [The People + AI Guide book](https://pair.withgoogle.com/) - Learn how to design human-centered AI products.
 * [Adventures in TFLite](https://github.com/sayakpaul/Adventures-in-TensorFlow-Lite) - A repository showing non-trivial conversion processes and general explorations in TFLite.
+* [TFProfiler](https://github.com/iglaweb/TFProfiler) - An app to to profile TensorFlow Lite model and measure its performance. 
 
 ## Learning resources 
 Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
