@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="images/awesome-tflite.png" alt="awesome tflite" style="max-width:50%">
+    <img src="images/awesome-tflite.png" alt="awesome tflite" width="500">
 </p>
 
 # Awesome TFLite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Twitter](https://img.shields.io/badge/Twitter-%40margaretmz-blue)](https://twitter.com/margaretmz)
