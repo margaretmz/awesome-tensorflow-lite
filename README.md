@@ -33,7 +33,7 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
   * [MOOCs](#moocs)
 
 ## What is new
-Here are the new features and tools of TensorFlow Lite:: <img src="images/icons/new.png" width='32' height='32'/>
+Here are the new features and tools of TensorFlow Lite: <img src="images/icons/new.png" width='32' height='32'/>
 * [Announcement of the new converter](https://groups.google.com/a/tensorflow.org/d/msg/tflite/Z_h7706dt8Q/sNrjPj4yGgAJ) - [MLIR](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)-based and enables conversion of new classes of models such as Mask R-CNN and Mobile BERT etc., supports functional control flow and better error handling during conversion. Enabled by default in the nightly builds\.
 * [Android Support Library](https://github.com/tensorflow/tflite-support/tree/master/tensorflow_lite_support/java) - Makes mobile development easier ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/EXPLORE_THE_CODE.md) sample code).
 * [Model Maker](https://www.tensorflow.org/lite/guide/model_maker) - Create your custom [image & text](https://github.com/tensorflow/examples/tree/master/tensorflow_examples/lite/model_maker) classification models easily in a few lines of code. See below the Icon Classifier for a tutorial by the community.
@@ -82,7 +82,6 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 | Speech Recognition | DeepSpeech                         | [Reference](https://github.com/mozilla/DeepSpeech/tree/master/native_client/java)     | Mozilla      |
 | Speech Synthesis   | Tacotron-2, FastSpeech2, MB-Melgan | [Android](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
 
-<img src="images/icons/zoo.png" width='48' height='48'/>
 
 ## Model zoo 
 
@@ -101,8 +100,6 @@ These are TensorFlow models that could be converted to .tflite and then implemen
 
 ## Ideas and Inspiration
 * [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutorials) - Checkout this repo for sample app ideas and seeking help for your tutorial projects. Once a project gets completed, the links of the TensorFlow Lite model(s), sample code and tutorial will be added to this awesome list.
-
-<img src="images/icons/mlkit.png" width='32' height='32'/>
 
 ## ML Kit examples 
 [ML Kit](https://developers.google.com/ml-kit) is a mobile SDK that brings Google's ML expertise to mobile developers.
@@ -124,8 +121,6 @@ These are TensorFlow models that could be converted to .tflite and then implemen
 * [Coral Edge TPU](https://coral.ai/) - Edge hardware by Google. [Coral Edge TPU examples](https://coral.ai/examples/).
 * [TensorFlow Lite Flutter Plugin](https://github.com/am15h/tflite_flutter_plugin/) - Provides a dart API similar to the TensorFlow Lite Java API for accessing TensorFlow Lite interpreter and performing inference in flutter apps. [tflite_flutter on pub.dev](https://pub.dev/packages/tflite_flutter).
 
-<img src="images/icons/helpful.png" width='32' height='32'/>
-
 ## Helpful links 
 * [Netron](https://github.com/lutzroeder/netron) - A tool for visualizing models.
 * [AI benchmark](http://ai-benchmark.com/tests.html) - A website for benchmarking computer vision models on smartphones.
@@ -138,8 +133,6 @@ These are TensorFlow models that could be converted to .tflite and then implemen
 ## Learning resources 
 Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
 
-<img src="images/icons/blog.png" width='32' height='32'/>
-
 ### Blog posts 
 
 * 2020-04-20 [What is new in TensorFlow Lite](https://blog.tensorflow.org/2020/04/whats-new-in-tensorflow-lite-from-devsummit-2020.html) - By Khanh LeViet.
@@ -151,14 +144,10 @@ Interested but not sure how to get started? Here are some learning resources tha
 * 2018-06-11 - [Why the Future of Machine Learning is Tiny](https://petewarden.com/2018/06/11/why-the-future-of-machine-learning-is-tiny/) - By Pete Warden. 
 * 2018-03-30 - [Using TensorFlow Lite on Android](https://blog.tensorflow.org/2018/03/using-tensorflow-lite-on-android.html)) - By Laurence Moroney. 
 
-<img src="images/icons/books.png" height='32'/>
-
 ### Books 
 * 2020-03-01 Raspberry Pi for Computer Vision ([Complete Bundle](https://www.pyimagesearch.com/raspberry-pi-for-computer-vision) | [TOC](https://www.pyimagesearch.com/2019/04/05/table-of-contents-raspberry-pi-for-computer-vision/)) - By the PyImageSearch Team: Adrian Rosebrock ([@PyImageSearch](https://twitter.com/PyImageSearch)), David Hoffman, Asbhishek Thanki, Sayak Paul ([@RisingSayak](https://twitter.com/RisingSayak)), and David Mcduffee.
 * 2019-12-01 [TinyML](http://shop.oreilly.com/product/0636920254508.do) - By Pete Warden ([@petewarden](https://twitter.com/petewarden)) and Daniel Situnayake ([@dansitu](https://twitter.com/dansitu)). 
 * 2019-10-01 [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.practicaldeeplearning.ai/) - By Anirudh Koul ([@AnirudhKoul](https://twitter.com/AnirudhKoul)), Siddha Ganju ([@SiddhaGanju](https://twitter.com/SiddhaGanju)), and Meher Kasam ([@MeherKasam](https://twitter.com/MeherKasam)).
-
-<img src="images/icons/youtube.png" width='36' height='25'/>
 
 ### Videos 
 * 2020-07-25 [Android ML by Hoi Lam](https://youtu.be/m_bEh8YifnQ) (GDG Kolkata meetup).
@@ -172,8 +161,6 @@ Interested but not sure how to get started? Here are some learning resources tha
 
 ### Podcasts
 * 2020-08-08 [Talking Machine Learning with Hoi Lam](https://anchor.fm/talkingwithapples/episodes/Talking-Machine-Learning-with-Hoi-Lam-eiaj7v).
-
-<img src="images/icons/mooc.png" width='32' height='32'/>
 
 ### MOOCs 
 * [Introduction to TensorFlow Lite](https://www.udacity.com/course/intro-to-tensorflow-lite--ud190) - Udacity course by Daniel Situnayake (@dansitu), Paige Bailey ([@DynamicWebPaige](https://twitter.com/DynamicWebPaige)), and Juan Delgado.
