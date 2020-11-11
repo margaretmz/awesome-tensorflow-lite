@@ -7,4 +7,6 @@ Please follow these guidelines for your pull requests:
 * For the TFLite model implementations, please use the following format: 
 	Task | Model name ([download]()) | App & Reference (optional) | Source
 * Check your spelling and grammar.
-* Position your suggestion as the last item in the task category.
+* Under "Models with samples", position your suggestion as the last item in the task category.
+* Under any section with lists starting with dates, position your suggestion as the first item.
+* Run [awesome-lint](https://github.com/sindresorhus/awesome-lint) to fix any errors before submitting your PR.
