@@ -73,7 +73,7 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 | Low-light image enhancement   | [Models on TF Hub](https://tfhub.dev/sayakpaul/mirnet-fixed/1)                                                     | [Project repo](https://github.com/sayakpaul/MIRNet-TFLite)  \| [Original Paper](https://arxiv.org/pdf/2003.06792v2.pdf) \|                                                                                                                           | Community          |
 | Text Detection                  | CRAFT Text Detector ([Paper](https://arxiv.org/pdf/1904.01941))                          |[Download](https://github.com/tulasiram58827/craft_tflite/blob/main/models/craft_float_800.tflite?raw=true) \| [Project Repository](https://github.com/tulasiram58827/craft_tflite/)  \| [Blog1-Conversion to TFLite](https://tulasi.dev/craft-in-tflite) \| [Blog2-EAST vs CRAFT](https://sayak.dev/optimizing-text-detectors/) \| [Models on TF Hub](https://tfhub.dev/tulasiram58827/lite-model/craft-text-detector/dr/1)   \| Android (Coming Soon)                                 | Community          |
 | Text Detection                  | EAST Text Detector ([Paper](https://arxiv.org/abs/1704.03155))                          |[Models on TF Hub](https://tfhub.dev/sayakpaul/lite-model/east-text-detector/dr/1) \| [Conversion and Inference Notebook](https://colab.research.google.com/github/sayakpaul/Adventures-in-TensorFlow-Lite/blob/master/EAST_TFLite.ipynb)  | Community          |
-
+| OCR                             | Keras OCR ([Repo](https://github.com/faustomorales/keras-ocr))                          |[Models on TF Hub](https://tfhub.dev/tulasiram58827/lite-model/keras-ocr/dr/2)     \| [Project Repository](https://github.com/tulasiram58827/ocr_tflite)                                                                   | Community 
 
 ### Text
 | Task                | Model                                                                                                                           | Sample apps                                                                                                                                                                                                                                       | Source             |
@@ -87,6 +87,7 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 | ------------------ |------------------------------------| ------------------------------------------------------------------------------------- | ------------ |
 | Speech Recognition | DeepSpeech                         | [Reference](https://github.com/mozilla/DeepSpeech/tree/master/native_client/java)     | Mozilla      |
 | Speech Synthesis   | Tacotron-2, FastSpeech2, MB-Melgan | [Android](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
+| Speech Synthesis(TTS)   | Tacotron2, FastSpeech2, MelGAN, MB-MelGAN, HiFi-GAN, Parallel WaveGAN | [Inference Notebook](https://github.com/tulasiram58827/TTS_TFLite/blob/main/End_to_End_TTS.ipynb)      \| [Project Repository](https://github.com/tulasiram58827/TTS_TFLite/)  | Community  |
 
 
 ## Model zoo
