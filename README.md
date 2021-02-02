@@ -18,6 +18,7 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
   * [Computer vision](#computer-vision)
   * [Text](#text)
   * [Speech](#speech)
+  * [Recommendation](#recommendation)
 * [Model zoo](#model-zoo)
   * [TensorFlow Lite models](#tensorflow-lite-models)
   * [TensorFlow models](#tensorflow-models)
@@ -91,6 +92,12 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 | Speech Recognition | DeepSpeech                         | [Reference](https://github.com/mozilla/DeepSpeech/tree/master/native_client/java)     | Mozilla      |
 | Speech Synthesis   | Tacotron-2, FastSpeech2, MB-Melgan | [Android](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
 | Speech Synthesis(TTS)   | Tacotron2, FastSpeech2, MelGAN, MB-MelGAN, HiFi-GAN, Parallel WaveGAN | [Inference Notebook](https://github.com/tulasiram58827/TTS_TFLite/blob/main/End_to_End_TTS.ipynb)      \| [Project Repository](https://github.com/tulasiram58827/TTS_TFLite/)  | Community  |
+
+### Recommendation
+| Task               | Model                              | App \| Reference                                                                      | Source       |
+| ------------------ |------------------------------------| ------------------------------------------------------------------------------------- | ------------ |
+| On-device Recommendation | [Dual-Encoder](https://github.com/tensorflow/examples/tree/master/lite/examples/recommendation/ml)                 | [Android](https://github.com/tensorflow/examples/tree/master/lite/examples/recommendation/android) \| [iOS](https://github.com/zhuzilin/on-device_recommendation_tflite) \| [Reference](https://blog.tensorflow.org/2020/09/introduction-to-tflite-on-device-recommendation.html)     | tf.org & Community      |
+
 
 ## Model zoo
 
