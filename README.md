@@ -101,7 +101,7 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 ### Game
 | Task               | Model                              | App \| Reference                                                                      | Source       |
 | ------------------ |------------------------------------| ------------------------------------------------------------------------------------- | ------------ |
-| Game agent | Reinforcement learning                 | [Flutter](https://github.com/windmaple/planestrike-flutter) \| [Reference](https://windmaple.medium.com/)     | Community      |
+| Game agent | Reinforcement learning                 | [Flutter](https://github.com/windmaple/planestrike-flutter) \| [Tutorial](https://windmaple.medium.com/)     | Community      |
 
 
 
