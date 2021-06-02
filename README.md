@@ -98,6 +98,12 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 | ------------------ |------------------------------------| ------------------------------------------------------------------------------------- | ------------ |
 | On-device Recommendation | [Dual-Encoder](https://github.com/tensorflow/examples/tree/master/lite/examples/recommendation/ml)                 | [Android](https://github.com/tensorflow/examples/tree/master/lite/examples/recommendation/android) \| [iOS](https://github.com/zhuzilin/on-device_recommendation_tflite) \| [Reference](https://blog.tensorflow.org/2020/09/introduction-to-tflite-on-device-recommendation.html)     | tf.org & Community      |
 
+### Game
+| Task               | Model                              | App \| Reference                                                                      | Source       |
+| ------------------ |------------------------------------| ------------------------------------------------------------------------------------- | ------------ |
+| Game agent | Reinforcement learning                 | [Flutter](https://github.com/windmaple/planestrike-flutter) \| [Tutorial](https://windmaple.medium.com/)     | Community      |
+
+
 
 ## Model zoo
 
