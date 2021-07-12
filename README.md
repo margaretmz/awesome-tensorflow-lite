@@ -120,7 +120,7 @@ These are the TensorFlow Lite models that could be implemented in apps and thing
 ### TensorFlow models
 These are TensorFlow models that could be converted to .tflite and then implemented in apps and things:
 * [TensorFlow models](https://github.com/tensorflow/models/tree/master/official) - Official TensorFlow models.
-* [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) - Pre-trained on COCO, KITTI, AVA v2.1, iNaturalist Species datasets.
+* [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) - Pre-trained on COCO, KITTI, AVA v2.1, iNaturalist Species datasets.
 
 ## Ideas and Inspiration
 * [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutorials) - Checkout this repo for sample app ideas and seeking help for your tutorial projects. Once a project gets completed, the links of the TensorFlow Lite model(s), sample code and tutorial will be added to this awesome list.
