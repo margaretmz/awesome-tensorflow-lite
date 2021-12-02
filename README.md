@@ -94,6 +94,7 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 | Task               | Model                              | App \| Reference                                                                      | Source       |
 | ------------------ |------------------------------------| ------------------------------------------------------------------------------------- | ------------ |
 | Speech Recognition | DeepSpeech                         | [Reference](https://github.com/mozilla/DeepSpeech/tree/master/native_client/java)     | Mozilla      |
+| Speech Recognition | CONFORMER                          | [Android](https://github.com/windmaple/tflite-asr) | Community |
 | Speech Synthesis   | Tacotron-2, FastSpeech2, MB-Melgan | [Android](https://github.com/TensorSpeech/TensorflowTTS/tree/master/examples/android) | TensorSpeech |
 | Speech Synthesis(TTS)   | Tacotron2, FastSpeech2, MelGAN, MB-MelGAN, HiFi-GAN, Parallel WaveGAN | [Inference Notebook](https://github.com/tulasiram58827/TTS_TFLite/blob/main/End_to_End_TTS.ipynb)      \| [Project Repository](https://github.com/tulasiram58827/TTS_TFLite/)  | Community  |
 
@@ -157,6 +158,8 @@ These are TensorFlow models that could be converted to .tflite and then implemen
 * [TFProfiler](https://github.com/iglaweb/TFProfiler) - An Android-based app to profile TensorFlow Lite models and measure its performance on smartphone.
 * [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers)
 * [TensorFlow Lite Examples - Android](https://github.com/dailystudio/tensorflow-lite-examples-android) - A repository refactors and rewrites all the TensorFlow Lite Android examples which are included in the TensorFlow official website. 
+* [Tensorflow-lite-kotlin-samples](https://github.com/SunitRoy2703/Tensorflow-lite-kotlin-samples) - A collection of Tensorflow Lite Android example Apps in Kotlin, to show different kinds of kotlin implementation of the [example apps](https://www.tensorflow.org/lite/examples)
+
 
 ## Learning resources
 Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
@@ -182,6 +185,7 @@ Interested but not sure how to get started? Here are some learning resources tha
 * 2019-10-01 [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.practicaldeeplearning.ai/) - By Anirudh Koul ([@AnirudhKoul](https://twitter.com/AnirudhKoul)), Siddha Ganju ([@SiddhaGanju](https://twitter.com/SiddhaGanju)), and Meher Kasam ([@MeherKasam](https://twitter.com/MeherKasam)).
 
 ### Videos
+* 2021-10-06 [Contributing to TensorFlow Lite with Sunit Roy](https://youtu.be/sZayUoWW6nE) (Hacktoberfest 2021)
 * 2020-07-25 [Android ML by Hoi Lam](https://youtu.be/m_bEh8YifnQ) (GDG Kolkata meetup).
 * 2020-04-01 [Easy on-device ML from prototype to production](https://youtu.be/ALxWJoh_BHw) (TF Dev Summit 2020).
 * 2020-03-11 [TensorFlow Lite: ML for mobile and IoT devices](https://youtu.be/27Zx-4GOQA8) (TF Dev Summit 2020).
