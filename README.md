@@ -96,6 +96,8 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 | Task | Model | App \| Reference | Source |
 | -|-|-|-|
 | Pose estimation                 | Posenet ([download](https://storage.googleapis.com/download.tensorflow.org/models/tflite/posenet_mobilenet_v1_100_257x257_multi_kpt_stripped.tflite))             | [Android](https://github.com/tensorflow/examples/tree/master/lite/examples/posenet/android) \| [iOS](https://github.com/tensorflow/examples/tree/master/lite/examples/posenet/ios) \| [Overview](https://www.tensorflow.org/lite/models/pose_estimation/overview)                                                                                                                                                      | tensorflow.org     |
+| Pose Classification based Video Game Control             | MoveNet Lightning ([download](https://github.com/NSTiwari/Video-Game-Control-using-Pose-Classification-and-TensorFlow-Lite/blob/main/movenet_lightning.tflite))             | [Project Repository](https://github.com/NSTiwari/Video-Game-Control-using-Pose-Classification-and-TensorFlow-Lite)                                                                                                                                               | Community     |
+
 
 #### Other
 | Task | Model | App \| Reference | Source |
