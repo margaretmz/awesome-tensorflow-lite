@@ -13,7 +13,7 @@ This is an awesome list of TensorFlow Lite models with sample apps, helpful tool
 Please submit a PR if you would like to contribute and follow the guidelines [here](CONTRIBUTING.md).
 
 ## Contents
-* [What is new](#what-is-new)
+* [Past annoucements](#past-announcements)
 * [Models with samples](#models-with-samples)
   * [Computer vision](#computer-vision)
   * [Text](#text)
@@ -33,8 +33,8 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
   * [Podcasts](#podcasts)
   * [MOOCs](#moocs)
 
-## What is new
-Here are the new features and tools of TensorFlow Lite: <img src="images/icons/new.png" width='32' height='32'/>
+## Past announcements:
+Here are some past feature annoucements of TensorFlow Lite:
 * [Announcement of the new converter](https://groups.google.com/a/tensorflow.org/d/msg/tflite/Z_h7706dt8Q/sNrjPj4yGgAJ) - [MLIR](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)-based and enables conversion of new classes of models such as Mask R-CNN and Mobile BERT etc., supports functional control flow and better error handling during conversion. Enabled by default in the nightly builds\.
 * [Android Support Library](https://github.com/tensorflow/tflite-support/tree/master/tensorflow_lite_support/java) - Makes mobile development easier ([Android](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/EXPLORE_THE_CODE.md) sample code).
 * [Model Maker](https://www.tensorflow.org/lite/guide/model_maker) - Create your custom [image & text](https://github.com/tensorflow/examples/tree/master/tensorflow_examples/lite/model_maker) classification models easily in a few lines of code. See below the Icon Classifier for a tutorial by the community.
