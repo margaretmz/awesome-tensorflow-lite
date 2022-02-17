@@ -13,25 +13,35 @@ This is an awesome list of TensorFlow Lite models with sample apps, helpful tool
 Please submit a PR if you would like to contribute and follow the guidelines [here](CONTRIBUTING.md).
 
 ## Contents
-* [Past annoucements](#past-announcements)
-* [Models with samples](#models-with-samples)
-  * [Computer vision](#computer-vision)
-  * [Text](#text)
-  * [Speech](#speech)
-  * [Recommendation](#recommendation)
-* [Model zoo](#model-zoo)
-  * [TensorFlow Lite models](#tensorflow-lite-models)
-  * [TensorFlow models](#tensorflow-models)
-* [Ideas and Inspiration](#ideas-and-inspiration)
-* [ML Kit examples](#ml-kit-examples)
-* [Plugins and SDKs](#plugins-and-sdks)
-* [Helpful links](#helpful-links)
-* [Learning resources](#learning-resources)
-  * [Blog posts](#blog-posts)
-  * [Books](#books)
-  * [Videos](#videos)
-  * [Podcasts](#podcasts)
-  * [MOOCs](#moocs)
+- [Awesome TensorFlow Lite ![Awesome](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Twitter](https://img.shields.io/badge/Twitter-%40margaretmz-blue)](https://twitter.com/margaretmz)](#awesome-tensorflow-lite---)
+  - [Contents](#contents)
+  - [Past announcements:](#past-announcements)
+  - [Models with samples](#models-with-samples)
+    - [Computer vision](#computer-vision)
+      - [Classification](#classification)
+      - [Detection](#detection)
+      - [Segmentation](#segmentation)
+      - [Style Transfer](#style-transfer)
+      - [Generative](#generative)
+      - [Post estimation](#post-estimation)
+      - [Other](#other)
+    - [Text](#text)
+    - [Speech](#speech)
+    - [Recommendation](#recommendation)
+    - [Game](#game)
+  - [Model zoo](#model-zoo)
+    - [TensorFlow Lite models](#tensorflow-lite-models)
+    - [TensorFlow models](#tensorflow-models)
+  - [Ideas and Inspiration](#ideas-and-inspiration)
+  - [ML Kit examples](#ml-kit-examples)
+  - [Plugins and SDKs](#plugins-and-sdks)
+  - [Helpful links](#helpful-links)
+  - [Learning resources](#learning-resources)
+    - [Blog posts](#blog-posts)
+    - [Books](#books)
+    - [Videos](#videos)
+    - [Podcasts](#podcasts)
+    - [MOOCs](#moocs)
 
 ## Past announcements:
 Here are some past feature annoucements of TensorFlow Lite:
@@ -92,6 +102,7 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 | -|-|-|-|
 | GANs                            | [U-GAT-IT](https://github.com/taki0112/UGATIT) (Selfie2Anime)                                                                                                     | [Project repo](https://github.com/margaretmz/selfie2anime-with-tflite) \| [Android](https://github.com/margaretmz/selfie2anime-with-tflite/tree/master/android) \| [Tutorial](https://medium.com/google-developer-experts/selfie2anime-with-tflite-part-1-overview-f97500800ffe)                                                                                                                                       | Community          |
 | GANs                            | [White-box CartoonGAN](https://github.com/SystemErrorWang/White-box-Cartoonization) ([download](https://tfhub.dev/sayakpaul/lite-model/cartoongan/dr/1))          | [Project repo](https://github.com/margaretmz/Cartoonizer-with-TFLite) \| [Android](https://github.com/margaretmz/Cartoonizer-with-TFLite/tree/master/android) \| [Tutorial](https://blog.tensorflow.org/2020/09/how-to-create-cartoonizer-with-tf-lite.html)                                                                                                                                                           | Community          |
+| GANs - Image Extrapolation | Boundless on [TF Hub](https://tfhub.dev/sayakpaul/lite-model/boundless-quarter/dr/1)                                                     | [Colab Notebook](https://colab.research.google.com/github/sayakpaul/Adventures-in-TensorFlow-Lite/blob/master/Boundless_TFLite.ipynb)  \| [Original Paper](https://arxiv.org/pdf/2003.06792v2.pdf)                                                                                                                           | Community          |
 #### Post estimation
 | Task | Model | App \| Reference | Source |
 | -|-|-|-|
@@ -103,7 +114,6 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 | Task | Model | App \| Reference | Source |
 | -|-|-|-|
 | Low-light image enhancement   | [Models on TF Hub](https://tfhub.dev/sayakpaul/mirnet-fixed/1)                                                     | [Project repo](https://github.com/sayakpaul/MIRNet-TFLite)  \| [Original Paper](https://arxiv.org/pdf/2003.06792v2.pdf) \| [Flutter](https://github.com/sayannath/MIRNet-Flutter)|                                                                                                                           | Community          |
-| Image Extrapolation   | [Models on TF Hub](https://tfhub.dev/sayakpaul/lite-model/boundless-quarter/dr/1)                                                     | [Colab Notebook](https://colab.research.google.com/github/sayakpaul/Adventures-in-TensorFlow-Lite/blob/master/Boundless_TFLite.ipynb)  \| [Original Paper](https://arxiv.org/pdf/2003.06792v2.pdf)                                                                                                                           | Community          |
 | OCR                             |[Models on TF Hub](https://tfhub.dev/tulasiram58827/lite-model/keras-ocr/dr/2)     | [Project Repository](https://github.com/tulasiram58827/ocr_tflite)  | Community
 
 
